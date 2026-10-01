@@ -1,0 +1,248 @@
+[
+  {
+    "id": "01_onion_purple_blotch.jpg",
+    "crop": "Onion",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "02_tomato_early_blight.jpg",
+    "crop": "Tomato",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "03_potato_late_blight.jpg",
+    "crop": "Potato",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "04_cotton_pink_bollworm.jpg",
+    "crop": "Cotton",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["pest"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "05_soybean_yellow_mosaic.jpg",
+    "crop": "Soybean",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "06_chilli_leaf_curl.jpg",
+    "crop": "Chilli",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease", "pest"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "07_wheat_yellow_rust.jpg",
+    "crop": "Wheat",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "08_tomato_fruit_borer.jpg",
+    "crop": "Tomato",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["pest"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "09_tomato_healthy_leaf.jpg",
+    "crop": "Tomato",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["healthy"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "10_onion_healthy_leaf.jpg",
+    "crop": "Onion",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["healthy"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "11_potato_healthy_leaf.jpg",
+    "crop": "Potato",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["healthy"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "12_wheat_healthy_leaf.jpg",
+    "crop": "Wheat",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["healthy"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "13_soybean_healthy_leaf.jpg",
+    "crop": "Soybean",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["healthy"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": true
+  },
+  {
+    "id": "14_onion_grade_a.jpg",
+    "crop": "Onion",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["healthy"],
+    "expected_grade": "A",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "15_onion_grade_b.jpg",
+    "crop": "Onion",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["healthy", "physical_damage"],
+    "expected_grade": "B",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "16_onion_grade_c_poor.jpg",
+    "crop": "Onion",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["physical_damage", "disease"],
+    "expected_grade": "C",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "17_tomato_grade_a.jpg",
+    "crop": "Tomato",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["healthy"],
+    "expected_grade": "A",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "18_tomato_grade_b.jpg",
+    "crop": "Tomato",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["healthy", "physical_damage"],
+    "expected_grade": "B",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "19_tomato_grade_c_poor.jpg",
+    "crop": "Tomato",
+    "expected_type": "produce_quality",
+    "acceptable_assessments": ["physical_damage", "disease"],
+    "expected_grade": "C",
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "20_not_crop_person.jpg",
+    "crop": null,
+    "expected_type": "not_crop",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "reject",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "21_not_crop_street.jpg",
+    "crop": null,
+    "expected_type": "not_crop",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "reject",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "22_not_crop_plate_food.jpg",
+    "crop": null,
+    "expected_type": "not_crop",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "reject",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "23_not_crop_screenshot.jpg",
+    "crop": null,
+    "expected_type": "not_crop",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "reject",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "24_blurry_leaf.jpg",
+    "crop": null,
+    "expected_type": "unusable",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "ask_for_retake",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "25_dark_leaf.jpg",
+    "crop": null,
+    "expected_type": "unusable",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "ask_for_retake",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "26_overexposed_leaf.jpg",
+    "crop": null,
+    "expected_type": "unusable",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "ask_for_retake",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "27_distant_blurry_plant.jpg",
+    "crop": null,
+    "expected_type": "unusable",
+    "acceptable_assessments": ["unclear"],
+    "expected_behavior": "ask_for_retake",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "28_field_unclear_leaves.jpg",
+    "crop": "Onion",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["unclear", "disease"],
+    "expected_behavior": "ask_for_retake",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "29_field_mixed_stress.jpg",
+    "crop": "Soybean",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["water_stress", "unclear", "disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  },
+  {
+    "id": "30_field_wind_damage.jpg",
+    "crop": "Wheat",
+    "expected_type": "plant_problem",
+    "acceptable_assessments": ["physical_damage", "unclear", "disease"],
+    "expected_behavior": "diagnose",
+    "should_have_named_disease": false
+  }
+]

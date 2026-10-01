@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanSaathi | किसानसाथी | शेतकरी मित्र - Mandi Advisory Portal</title>
+    
+    <!-- All 12 Indian Script Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&family=Noto+Sans+Gurmukhi:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- 1. Top Navigation Bar -->
+    <header class="top-nav">
+        <a href="/" class="brand-container" aria-label="KisanSaathi Homepage">
+            <div class="logo-leaf">🌿</div>
+            <div class="brand-text-group">
+                <span class="brand-title">
+                    KisanSaathi 
+                    <span class="native-brand" id="headerNativeBrand">शेतकरी मित्र</span>
+                    <span class="portal-badge">Bharat</span>
+                </span>
+            </div>
+        </a>
+
+        <div class="nav-actions">
+            <div class="lang-dropdown-wrapper">
+                <select id="languageSelect" class="lang-select" aria-label="Select Language">
+                    <option value="mr">मराठी (Marathi)</option>
+                    <option value="hi">हिन्दी (Hindi)</option>
+                    <option value="en">English</option>
+                    <option value="gu">ગુજરાતી (Gujarati)</option>
+                    <option value="ta">தமிழ் (Tamil)</option>
+                    <option value="te">తెలుగు (Telugu)</option>
+                    <option value="kn">ಕನ್ನಡ (Kannada)</option>
+                    <option value="ml">മലയാളം (Malayalam)</option>
+                    <option value="bn">বাংলা (Bengali)</option>
+                    <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+                    <option value="or">ଓଡ଼ିଆ (Odia)</option>
+                    <option value="as">অসমীয়া (Assamese)</option>
+                </select>
+            </div>
+            <button class="btn-icon-nav" id="ttsToggleBtn" title="आवाज (Voice Audio)" aria-label="Toggle voice audio">🔊</button>
+            <button class="btn-icon-nav" id="alertModalBtn" title="भाव अलर्ट (Price Alerts)" aria-label="Open Price Alerts">🔔</button>
+        </div>
+    </header>
+
+    <!-- 2. Main Wrapper -->
+    <main class="main-wrapper">
+        <!-- Hero Section -->
+        <section class="hero-card" aria-label="Hero Mandi Search">
+            <div class="hero-text-side">
+                <h1 class="hero-headline" id="heroHeadline">योग्य भाव जाणा. योग्य वेळी विक्री करा.</h1>
+                <p class="hero-subheadline" id="heroSubheadline">
+                    भारतीय शेतकऱ्यांसाठी थेट सल्ला: आज शेतमाल विकायचा की थांबायचा? आणि कोणत्या मंडीत जास्त नफा मिळेल?
+                </p>
+
+                <div class="ask-form-group">
+                    <div class="input-container">
+                        <input 
+                            type="text" 
+                            id="askInput" 
+                            class="ask-input" 
+                            placeholder="कांदा, टोमॅटो, सोयाबीन भाव किंवा विक्रीबद्दल विचारा..." 
+                            aria-label="Ask about crop prices"
+                        >
+                        <button class="btn-mic" id="micBtn" title="बोलून विचारा (Speak)" aria-label="Voice input">
+                            🎙️
+                        </button>
+                    </div>
+                    <button class="btn-ask-primary" id="askBtn">
+                        <span id="askBtnText">सल्ला घ्या</span> ➔
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-image-box">
+                <img 
+                    src="/static/assets/hero_farmer.webp" 
+                    alt="Indian farmer checking harvest in agricultural field" 
+                    class="hero-img" 
+                    loading="lazy"
+                >
+            </div>
+        </section>
+
+        <!-- Special Feature Action Cards (Addendum 2) -->
+        <section class="action-cards-grid" aria-label="Special Agricultural Features">
+            <div class="action-card" id="openCropModalCard" role="button" tabindex="0" aria-label="Open Crop Photo Analysis">
+                <div class="action-card-icon">📸</div>
+                <div class="action-card-text">
+                    <h2 class="action-card-title" id="checkCropCardTitle">माझे पीक तपासा</h2>
+                    <p class="action-card-desc" id="checkCropCardDesc">पाने किंवा काढणी केलेल्या शेतमालाचा फोटो काढून रोगनिदान व प्रतवारी मिळवा</p>
+                </div>
+                <button class="btn-action-card" id="btnCheckCropTrigger">तपासा ➔</button>
+            </div>
+            <div class="action-card" id="openVoiceModalCard" role="button" tabindex="0" aria-label="Open Voice Assistant">
+                <div class="action-card-icon">🎙️</div>
+                <div class="action-card-text">
+                    <h2 class="action-card-title" id="talkToKisanTitle">किसानसाथीशी बोलून विचारा</h2>
+                    <p class="action-card-desc" id="talkToKisanDesc">कोणतेही टायपिंग न करता आपल्या मातृभाषेत थेट बोलून सल्ला मिळवा</p>
+                </div>
+                <button class="btn-action-card" id="btnVoiceTrigger">बोला ➔</button>
+            </div>
+        </section>
+
+        <!-- Skeleton Loader (Friendly checking state) -->
+        <div class="skeleton-loader" id="skeletonLoader" role="status" aria-live="polite">
+            <div style="font-weight: 700; color: var(--green-900); margin-bottom: 12px;" id="loadingCheckingText">
+                🔍 बाजारभाव व प्रवाहांची तपासणी सुरू आहे...
+            </div>
+            <div class="skeleton-text" style="width: 80%;"></div>
+            <div class="skeleton-text" style="width: 60%;"></div>
+            <div class="skeleton-text" style="width: 90%;"></div>
+        </div>
+
+        <!-- 3. Answer Panel (Replaces Chat Bubble Look) -->
+        <section class="answer-panel" id="answerPanel" aria-live="polite">
+            <!-- Recommendation Badge Card -->
+            <div class="recommendation-card" id="recommendationCard">
+                <div class="rec-badge-group">
+                    <span class="action-badge" id="recActionBadge">विक्री करा (SELL NOW)</span>
+                    <span class="confidence-text" id="recConfidenceText">९०% विश्वासार्हता</span>
+                </div>
+                <div style="font-size: 1rem; color: var(--green-900); font-weight: 600;" id="recSummaryLine"></div>
+            </div>
+
+            <!-- Key Reasons -->
+            <div class="reasons-box">
+                <h2 class="section-title" id="reasonsTitle" style="font-size: 1.15rem;">📌 प्रमुख कारणे व विश्लेषण</h2>
+                <ul class="reasons-list" id="reasonsList"></ul>
+            </div>
+
+            <!-- Market Numbers Grid -->
+            <div class="numbers-strip" id="numbersStrip">
+                <div class="number-card">
+                    <div class="number-card-label" id="labelTypicalPrice">सरासरी भाव (Typical Price)</div>
+                    <div class="number-card-val" id="valTypicalPrice">₹ २,९१५ / क्विंटल</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-label" id="labelPerKg">प्रति किलो दर</div>
+                    <div class="number-card-val" id="valPerKg">₹ २९.२ / किलो</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-label" id="labelTrend">७ दिवसांचा कल</div>
+                    <div class="number-card-val" id="valTrend">+१.०% (स्थिर)</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-label" id="labelDateSource">तारीख व स्रोत</div>
+                    <div class="number-card-val" style="font-size: 0.95rem; font-weight: 600;" id="valDateSource">आज | Agmarknet</div>
+                </div>
+            </div>
+
+            <!-- 7-Day Sparkline SVG Chart -->
+            <div class="chart-container">
+                <h3 class="section-title" id="trendChartTitle" style="font-size: 1.05rem; margin-bottom: 8px;">📈 ७ दिवसांची भावातील हालचाल</h3>
+                <svg class="sparkline-svg" id="sparklineSvg" viewBox="0 0 600 90"></svg>
+            </div>
+
+            <!-- Nearby Mandi Comparison Table -->
+            <div id="mandiComparisonSection">
+                <h3 class="section-title" id="mandiComparisonTitle" style="font-size: 1.1rem;">🚛 जवळपासच्या मंड्यांची तुलना (वाहतूक खर्च वजा जाता)</h3>
+                <div class="data-table-wrapper">
+                    <table class="agri-table">
+                        <thead>
+                            <tr>
+                                <th id="thMandi">मंडी</th>
+                                <th id="thDist">अंतर</th>
+                                <th id="thGross">मंडी भाव</th>
+                                <th id="thTransport">वाहतूक खर्च</th>
+                                <th id="thNet">हातात मिळणारा भाव</th>
+                                <th id="thGain">अतिरिक्त नफा</th>
+                            </tr>
+                        </thead>
+                        <tbody id="mandiTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Friendly "What We Checked" Checklist -->
+            <div class="checklist-box">
+                <div class="checklist-title">
+                    <span>🌾</span> <span id="whatWeCheckedTitle">आम्ही तुमच्यासाठी काय तपासले</span>
+                </div>
+                <div class="check-items" id="checkItemsList">
+                    <div class="check-item"><span class="check-mark">✓</span> <span id="chkPrices">आजचे अधिकृत बाजार आगमन दर</span></div>
+                    <div class="check-item"><span class="check-mark">✓</span> <span id="chkTrend">७ व ३० दिवसांतील भावाचा कल</span></div>
+                    <div class="check-item"><span class="check-mark">✓</span> <span id="chkWeather">पाऊस व आर्द्रतेचा संभाव्य धोका</span></div>
+                    <div class="check-item"><span class="check-mark">✓</span> <span id="chkMandis">शेजारच्या मंड्यांमधील वाहतूक वजा जाता मिळणारा नफा</span></div>
+                </div>
+            </div>
+
+            <!-- Action Buttons Bar -->
+            <div class="action-buttons-bar">
+                <a href="#" class="btn-action whatsapp" id="btnShareWhatsapp" target="_blank" rel="noopener">
+                    <span>📲</span> <span id="btnShareText">व्हॉट्सॲपवर शेअर करा</span>
+                </a>
+                <button class="btn-action alert" id="btnCardAlert">
+                    <span>🔔</span> <span id="btnAlertText">भाव अलर्ट सेट करा</span>
+                </button>
+                <button class="btn-action listen" id="btnCardListen">
+                    <span>🔊</span> <span id="btnListenText">ऐका</span>
+                </button>
+            </div>
+
+            <!-- Follow-up Question Chips -->
+            <div class="followups-group" id="followupsGroup">
+                <div class="followups-label" id="followupsLabel">उपयुक्त पुढील प्रश्न:</div>
+                <div class="followup-chips" id="followupChips"></div>
+            </div>
+
+            <!-- Technical Details Accordion (for hackathon judges) -->
+            <details class="tech-details-details">
+                <summary class="tech-details-summary" id="techDetailsSummary">
+                    ⚡ तांत्रिक तपशील व एजंट टूल्स (Technical Details for Judges)
+                </summary>
+                <div class="tech-details-content" id="techDetailsContent">
+                    No tools executed yet.
+                </div>
+            </details>
+        </section>
+
+        <!-- 4. Crop Quick-Pick Grid -->
+        <section aria-label="Crop Quick-Pick">
+            <h2 class="section-title" id="quickCropsTitle">
+                <span>🌱</span> आजचे प्रमुख शेतमाल दर (Quick Pick)
+            </h2>
+            <div class="crops-grid" id="cropsGrid">
+                <!-- Dynamically populated 12 crops -->
+            </div>
+        </section>
+
+        <!-- 5. Today's Mandi Rates Table -->
+        <section class="rates-card" aria-label="Mandi Rates Snapshot">
+            <h2 class="section-title" id="todayRatesTitle">
+                <span>📊</span> आजचे मंडी बाजारभाव (Nashik Mandi Snapshot)
+            </h2>
+            <div class="data-table-wrapper">
+                <table class="agri-table">
+                    <thead>
+                        <tr>
+                            <th id="thRatesCrop">शेतमाल</th>
+                            <th id="thRatesPrice">सरासरी भाव</th>
+                            <th id="thRatesTrend">७ दिवसांचा कल</th>
+                            <th id="thRatesDate">अद्ययावत तारीख</th>
+                            <th id="thRatesSource">माहिती स्रोत</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ratesTableBody">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 6. My Price Alerts & Crop Health Reminders Section -->
+        <div class="alerts-reminders-grid">
+            <section class="rates-card" id="myAlertsSection">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                    <h2 class="section-title" id="myAlertsTitle" style="margin-bottom:0;">
+                        <span>🔔</span> माझे भाव अलर्ट्स (Price Alerts)
+                    </h2>
+                    <button class="btn-ask-primary" style="min-height:38px; font-size:14px; padding:0 14px;" id="btnCreateAlertHeader">
+                        + नवीन अलर्ट
+                    </button>
+                </div>
+                <div id="userAlertsContainer" style="color:var(--muted); font-size:0.95rem;">
+                    सध्या कोणतेही सक्रिय अलर्ट नाहीत.
+                </div>
+            </section>
+
+            <section class="rates-card" id="myRemindersSection">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                    <h2 class="section-title" id="remindersTitle" style="margin-bottom:0;">
+                        <span>📅</span> पीक आरोग्य आठवणी (Crop Health Reminders)
+                    </h2>
+                </div>
+                <div id="userRemindersContainer" style="color:var(--muted); font-size:0.95rem;">
+                    सध्या कोणतीही प्रलंबित आठवण नाही.
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 7. Crop Photo Analysis Modal (Addendum 2) -->
+    <div class="modal-backdrop" id="cropModalBackdrop" role="dialog" aria-modal="true" style="display: none;">
+        <div class="modal-box modal-box-large">
+            <div class="modal-header-row">
+                <h3 class="modal-heading" id="cameraModalTitle">📸 पीक फोटो तपासणी (Crop Photo Analysis)</h3>
+                <button class="modal-close-btn" id="cropModalCloseBtn" aria-label="Close modal">&times;</button>
+            </div>
+
+            <!-- Upload / Capture View -->
+            <div id="cropUploadView">
+                <div class="good-bad-guide-box">
+                    <div class="guide-title" id="goodBadGuideTitle">अचूक निदानासाठी फोटो कसा काढाल:</div>
+                    <div class="guide-row">
+                        <span class="guide-good" id="goodPhotoTip">✓ योग्य: दिवसाच्या नैसर्गिक प्रकाशात पानाच्या दोन्ही बाजूंचा स्पष्ट फोटो</span>
+                        <span class="guide-bad" id="badPhotoTip">✗ टाळा: अस्पष्ट (ब्लर), खूप लांबून किंवा अंधारात काढलेला फोटो</span>
+                    </div>
+                </div>
+
+                <div class="photo-capture-actions">
+                    <input type="file" id="cameraFileInput" accept="image/*" capture="environment" style="display:none">
+                    <input type="file" id="galleryFileInput" accept="image/*" style="display:none">
+                    
+                    <button class="btn-capture-primary" id="btnCameraTrigger">
+                        <span>📷</span> <span id="takePhotoBtn">फोटो काढा (कॅमेरा)</span>
+                    </button>
+                    <button class="btn-capture-secondary" id="btnGalleryTrigger">
+                        <span>🖼️</span> <span id="chooseGalleryBtn">गॅलरीतून निवडा</span>
+                    </button>
+                </div>
+
+                <!-- Preview Area -->
+                <div class="photo-preview-area" id="photoPreviewArea" style="display: none;">
+                    <img id="cropPreviewImg" src="" alt="Selected crop leaf or produce" class="crop-preview-thumb">
+                    <button class="btn-remove-photo" id="btnRemovePhoto" title="Remove photo">&times;</button>
+                </div>
+
+                <!-- Crop hint and voice/text note -->
+                <div class="field-group" style="margin-top:14px;">
+                    <label class="field-label" id="lblCropHint" for="cropHintInput">पिकाचे नाव (ऐच्छिक)</label>
+                    <input type="text" id="cropHintInput" class="field-input" placeholder="उदा. कांदा, टोमॅटो, कापूस...">
+                </div>
+
+                <div class="field-group">
+                    <label class="field-label" id="orVoiceNote" for="cropNoteInput">बोलून किंवा लिहून सांगा (पर्यायी):</label>
+                    <div style="display:flex; gap:8px;">
+                        <input type="text" id="cropNoteInput" class="field-input" placeholder="लक्षणे सांगा, उदा. खालच्या पानांवर जांभळे ठिपके...">
+                        <button class="btn-mic" id="cropNoteMicBtn" title="बोलून नोंदवा" style="min-width:48px;">🎙️</button>
+                    </div>
+                </div>
+
+                <p class="privacy-notice" id="privacyConsentLine">
+                    🔒 गोपनीयता: फोटो फक्त तपासणीपुरता वापरला जातो व सर्व्हरवर साठवला जात नाही.
+                </p>
+
+                <button class="btn-modal-submit" id="btnAnalyzeCrop" disabled>
+                    <span id="analyzeBtn">पीक तपासा</span>
+                </button>
+            </div>
+
+            <!-- Analyzing Loading State -->
+            <div id="cropAnalyzingView" style="display: none; text-align: center; padding: 28px 10px;">
+                <div class="spinner-agri"></div>
+                <div style="font-weight: 700; color: var(--green-900); font-size: 1.15rem; margin-top: 14px;" id="analyzingText">
+                    फोटो आणि कृषी नियमांची तपासणी सुरू आहे...
+                </div>
+            </div>
+
+            <!-- Diagnosis Result View -->
+            <div id="cropResultView" style="display: none;">
+                <!-- Status Banner -->
+                <div class="status-banner" id="cropStatusBanner">
+                    <span class="banner-icon" id="cropStatusIcon">✓</span>
+                    <span class="banner-text" id="cropStatusText">पीक निरोगी दिसत आहे</span>
+                </div>
+
+                <!-- Issue Title & Confidence -->
+                <div class="diagnosis-header-card">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h4 class="diagnosis-issue-name" id="diagnosisIssueName">जांभळा करपा (Purple Blotch)</h4>
+                        <span class="confidence-chip" id="diagnosisConfidenceChip">विश्वासार्हता: उच्च</span>
+                    </div>
+                    <p class="diagnosis-disclaimer" id="diagnosisDisclaimer">
+                        हे छायाचित्रावरून दिलेले मार्गदर्शन आहे आणि ते १००% अचूक नसू शकते.
+                    </p>
+                </div>
+
+                <!-- Retake Guidance Box (if blurry/unusable) -->
+                <div class="retake-box" id="retakeGuidanceBox" style="display: none;">
+                    <div style="font-weight:700; color:var(--ink); margin-bottom:4px;" id="bannerUnclear">स्पष्ट फोटोची आवश्यकता आहे</div>
+                    <p id="retakeTipText" style="margin:0; font-size:0.95rem; color:var(--ink);"></p>
+                </div>
+
+                <!-- Symptoms List -->
+                <div class="diagnosis-section" id="symptomsSection">
+                    <h5 class="section-subheading" id="whatWeSee">दिसून आलेली लक्षणे:</h5>
+                    <ul class="symptoms-list" id="symptomsList">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+
+                <!-- Immediate Steps List -->
+                <div class="diagnosis-section" id="stepsSection">
+                    <h5 class="section-subheading" id="whatYouCanDo">सुरक्षित त्वरित उपाय (अरासायनिक):</h5>
+                    <ol class="action-steps-list" id="immediateStepsList">
+                        <!-- Populated by JS -->
+                    </ol>
+                </div>
+
+                <!-- Produce Quality & Grade Card (for harvest photos) -->
+                <div class="produce-grade-card" id="produceGradeCard" style="display: none;">
+                    <h5 class="section-subheading" id="produceQualityTitle">शेतमालाचा दर्जा आणि बाजार प्रतवारी</h5>
+                    <div class="grade-badge-row">
+                        <span class="grade-badge" id="produceGradeBadge">अ-दर्जा (Grade A)</span>
+                        <div class="grade-pricing-text">
+                            <span id="estimatedMandiRange">अंदाजे बाजारभाव पट्टा:</span>
+                            <strong id="producePriceRange" style="color:var(--green-900); font-size:1.1rem;">₹२,८०० - ₹३,१५० / क्विंटल</strong>
+                        </div>
+                    </div>
+                    <ul class="reasons-list" id="gradeReasonsList" style="margin-top:8px;"></ul>
+                </div>
+
+                <!-- Expert Help Card -->
+                <div class="expert-help-card" id="expertHelpCard">
+                    <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+                        <span style="font-size:1.6rem;">🏛️</span>
+                        <div>
+                            <h5 style="margin:0; color:var(--green-900); font-size:1.05rem;" id="expertHelpTitle">शासकीय कृषी मदत केंद्र</h5>
+                            <span id="expertOfficeName" style="font-size:0.85rem; color:var(--muted);">KVK Nashik</span>
+                        </div>
+                    </div>
+                    <p id="expertAdviceNote" style="font-size:0.9rem; color:var(--ink); margin-bottom:12px;">
+                        उपचार लागू करण्यापूर्वी अधिकृत सल्ल्यासाठी तुमच्या स्थानिक कृषी विज्ञान केंद्र (KVK) किंवा टोल-फ्री किसान कॉल सेंटरशी संपर्क साधा.
+                    </p>
+                    <a href="tel:18001801551" class="btn-call-kcc" id="btnCallKcc">
+                        <span>📞</span> <span id="callKccBtn">किसान कॉल सेंटर (टोल-फ्री १८००-१८०-१५५१)</span>
+                    </a>
+                </div>
+
+                <!-- Modal Actions Row -->
+                <div class="modal-action-row">
+                    <button class="btn-primary-action" id="btnRemind3Days">
+                        <span>📅</span> <span id="remind3DaysBtn">३ दिवसांनंतर आठवण करा</span>
+                    </button>
+                    <button class="btn-secondary-action" id="btnShareDiagnosis">
+                        <span>📲</span> <span id="btnShareDiagnosisText">व्हॉट्सअ‍ॅपवर पाठवा</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8. Voice Assistant Modal (Addendum 2) -->
+    <div class="modal-backdrop" id="voiceModalBackdrop" role="dialog" aria-modal="true" style="display: none;">
+        <div class="modal-box" style="text-align: center;">
+            <div class="modal-header-row">
+                <h3 class="modal-heading" id="voiceModalTitle">🎙️ किसानसाथी व्हॉइस असिस्टंट</h3>
+                <button class="modal-close-btn" id="voiceModalCloseBtn" aria-label="Close modal">&times;</button>
+            </div>
+
+            <!-- Pulsing Round Mic Animation -->
+            <div class="voice-mic-container">
+                <div class="voice-pulse-ring" id="voicePulseRing"></div>
+                <button class="voice-mic-circle" id="voiceMicCircle" aria-label="Microphone">
+                    🎙️
+                </button>
+            </div>
+
+            <!-- Progress State Indicator -->
+            <div class="voice-state-text" id="voiceStateText">ऐकत आहोत... बोला</div>
+            <p class="voice-hint" id="holdPhoneCloseHint">फोन जवळ धरून आपल्या भाषेत स्पष्ट बोला.</p>
+
+            <!-- Editable Transcript Box -->
+            <div class="field-group" style="text-align: left; margin-top: 14px;">
+                <label class="field-label" id="voiceTranscriptLabel" for="voiceTranscriptInput">तुम्ही विचारलेला प्रश्न (बदलण्यासाठी दाबा):</label>
+                <textarea id="voiceTranscriptInput" class="field-input" rows="2" placeholder="तुमचा प्रश्न येथे दिसेल..."></textarea>
+            </div>
+
+            <div style="display:flex; gap:10px; margin-top:14px;">
+                <button class="btn-secondary-action" style="flex:1;" id="btnVoiceReRecord">
+                    <span id="voiceReRecordBtn">पुन्हा बोला</span>
+                </button>
+                <button class="btn-primary-action" style="flex:1;" id="btnVoiceSend">
+                    <span id="voiceSendBtn">प्रश्न विचारा</span> ➔
+                </button>
+            </div>
+
+            <!-- Speech Audio Controls -->
+            <div class="voice-audio-controls" id="voiceAudioControls" style="display: none; margin-top: 16px; border-top: 1px solid #E5E7EB; padding-top: 12px;">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 12px;">
+                    <button class="btn-secondary-action" id="btnAudioPlayPause" style="min-height:36px; padding:0 12px;">
+                        <span id="playAudioBtn">ऐका 🔊</span>
+                    </button>
+                    <label style="font-size:0.85rem; color:var(--muted);" id="speedLabel">वेग:</label>
+                    <select id="audioSpeedSelect" class="lang-select" style="padding:4px 8px; font-size:0.85rem; min-height:auto;">
+                        <option value="0.8">0.8x</option>
+                        <option value="1.0" selected>1.0x</option>
+                        <option value="1.2">1.2x</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 7. Alert Modal -->
+    <div class="modal-backdrop" id="alertModalBackdrop" role="dialog" aria-modal="true">
+        <div class="modal-box">
+            <div class="modal-header-row">
+                <h3 class="modal-heading" id="modalHeading">नवीन भाव अलर्ट तयार करा</h3>
+                <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="field-group">
+                <label class="field-label" id="lblModalCrop" for="modalCrop">शेतमाल / पीक</label>
+                <input type="text" id="modalCrop" class="field-input" placeholder="उदा. कांदा (Onion)">
+            </div>
+            <div class="field-group">
+                <label class="field-label" id="lblModalMandi" for="modalMandi">मंडी / जिल्हा</label>
+                <input type="text" id="modalMandi" class="field-input" placeholder="उदा. नाशिक (Nashik)">
+            </div>
+            <div class="field-group">
+                <label class="field-label" id="lblModalTarget" for="modalTarget">अपेक्षित भाव (₹ प्रति क्विंटल)</label>
+                <input type="number" id="modalTarget" class="field-input" placeholder="उदा. ३०००">
+            </div>
+            <button class="btn-modal-submit" id="btnModalSubmit">अलर्ट सक्रिय करा</button>
+        </div>
+    </div>
+
+    <!-- 8. Footer -->
+    <footer class="portal-footer">
+        <div class="footer-inner">
+            <div class="footer-sources" id="footerSources">
+                बाजारभाव: अ‍ॅगमार्कनेट (कृषी व शेतकरी कल्याण मंत्रालय, भारत सरकार). हवामान: ओपन-मेटिओ.
+            </div>
+            <div class="footer-disclaimer" id="footerDisclaimer">
+                ही माहिती बाजारातील उपलब्ध माहितीवर आधारित सल्ला आहे, कोणतीही व्यावसायिक हमी नाही. प्रत्यक्ष माल पाठवण्यापूर्वी स्थानिक व्यापाऱ्यांशी खात्री करा.
+            </div>
+            <div class="footer-bottom">
+                <span id="footerTagline">भारतातील बळीराजासाठी समर्पित</span>
+                <span>KisanSaathi • BharatAgentic Hackathon 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

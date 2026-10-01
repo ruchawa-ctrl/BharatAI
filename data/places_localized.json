@@ -1,0 +1,404 @@
+{
+  "Nashik": {
+    "canonical": "Nashik",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 19.9975,
+    "lon": 73.7898,
+    "names": {
+      "en": "Nashik",
+      "mr": "नाशिक",
+      "hi": "नासिक",
+      "gu": "નાસિક",
+      "ta": "நாசிக்",
+      "te": "నాసిక్",
+      "kn": "ನಾಸಿಕ್",
+      "ml": "നാസിക്",
+      "bn": "নাসিক",
+      "pa": "ਨਾਸਿਕ",
+      "or": "ନାସିକ",
+      "as": "নাচিক"
+    }
+  },
+  "Lasalgaon": {
+    "canonical": "Lasalgaon",
+    "type": "mandi",
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "lat": 20.1472,
+    "lon": 74.2253,
+    "names": {
+      "en": "Lasalgaon",
+      "mr": "लासलगाव",
+      "hi": "लासलगांव",
+      "gu": "લાસલગાવ",
+      "ta": "லாசல்காவ்",
+      "te": "లాసల్‌గావ్",
+      "kn": "ಲಾಸಲ್‌ಗಾಂವ್",
+      "ml": "ലാസൽഗാവ്",
+      "bn": "লাসালগাঁও",
+      "pa": "ਲਾਸਲਗਾਂਵ",
+      "or": "ଲାସଲଗାଓଁ",
+      "as": "লাচালগাঁও"
+    }
+  },
+  "Pune": {
+    "canonical": "Pune",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "names": {
+      "en": "Pune",
+      "mr": "पुणे",
+      "hi": "पुणे",
+      "gu": "પુણે",
+      "ta": "புனே",
+      "te": "పూణే",
+      "kn": "ಪುಣೆ",
+      "ml": "പൂനെ",
+      "bn": "পুনে",
+      "pa": "ਪੁਣੇ",
+      "or": "ପୁଣେ",
+      "as": "পুনে"
+    }
+  },
+  "Latur": {
+    "canonical": "Latur",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 18.4088,
+    "lon": 76.5604,
+    "names": {
+      "en": "Latur",
+      "mr": "लातूर",
+      "hi": "लातूर",
+      "gu": "લાતૂર",
+      "ta": "லாத்தூர்",
+      "te": "లాతూర్",
+      "kn": "ಲಾತೂರ್",
+      "ml": "ലാത്തൂർ",
+      "bn": "লাতুর",
+      "pa": "ਲਾਤੂਰ",
+      "or": "ଲାତୁର",
+      "as": "লাতুৰ"
+    }
+  },
+  "Solapur": {
+    "canonical": "Solapur",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 17.6599,
+    "lon": 75.9064,
+    "names": {
+      "en": "Solapur",
+      "mr": "सोलापूर",
+      "hi": "सोलापुर",
+      "gu": "સોલાપુર",
+      "ta": "சோலாப்பூர்",
+      "te": "షోలాపూర్",
+      "kn": "ಸೊಲ್ಲಾಪುರ",
+      "ml": "ഷോലാപൂർ",
+      "bn": "সোলাপুর",
+      "pa": "ਸੋਲਾਪੁਰ",
+      "or": "ସୋଲାପୁର",
+      "as": "ছোলাপুৰ"
+    }
+  },
+  "Ahmednagar": {
+    "canonical": "Ahmednagar",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 19.0948,
+    "lon": 74.748,
+    "names": {
+      "en": "Ahmednagar",
+      "mr": "अहमदनगर",
+      "hi": "अहमदनगर",
+      "gu": "અમદાવાદનગર",
+      "ta": "அகமதுநகர்",
+      "te": "అహ్మద్‌నగర్",
+      "kn": "ಅಹಮದ್‌ನಗರ",
+      "ml": "അഹമ്മദ്‌നഗർ",
+      "bn": "আহমেদনগর",
+      "pa": "ਅਹਿਮਦਨਗਰ",
+      "or": "ଅହମ୍ମଦନଗର",
+      "as": "আহমেদনাগৰ"
+    }
+  },
+  "Nagpur": {
+    "canonical": "Nagpur",
+    "type": "district_and_mandi",
+    "state": "Maharashtra",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "names": {
+      "en": "Nagpur",
+      "mr": "नागपूर",
+      "hi": "नागपुर",
+      "gu": "નાગપુર",
+      "ta": "நாக்பூர்",
+      "te": "నాగ్‌పూర్",
+      "kn": "ನಾಗಪುರ",
+      "ml": "നാഗ്പൂർ",
+      "bn": "নাগপুর",
+      "pa": "ਨਾਗਪੁਰ",
+      "or": "ନାଗପୁର",
+      "as": "নাগপুৰ"
+    }
+  },
+  "Rajkot": {
+    "canonical": "Rajkot",
+    "type": "district_and_mandi",
+    "state": "Gujarat",
+    "lat": 22.3039,
+    "lon": 70.8022,
+    "names": {
+      "en": "Rajkot",
+      "mr": "राजकोट",
+      "hi": "राजकोट",
+      "gu": "રાજકોટ",
+      "ta": "ராஜ்கோட்",
+      "te": "రాజ్‌కోట్",
+      "kn": "ರಾಜ್‌ಕೋಟ್",
+      "ml": "രാജ്കോട്ട്",
+      "bn": "রাজকোট",
+      "pa": "ਰਾਜਕੋਟ",
+      "or": "ରାଜକୋଟ",
+      "as": "ৰাজকোট"
+    }
+  },
+  "Gondal": {
+    "canonical": "Gondal",
+    "type": "mandi",
+    "district": "Rajkot",
+    "state": "Gujarat",
+    "lat": 21.9619,
+    "lon": 70.7923,
+    "names": {
+      "en": "Gondal",
+      "mr": "गोंडल",
+      "hi": "गोंडल",
+      "gu": "ગોંડલ",
+      "ta": "கோண்டல்",
+      "te": "గోండల్",
+      "kn": "ಗೊಂಡಲ್",
+      "ml": "ഗോണ്ടൽ",
+      "bn": "গোন্ডাল",
+      "pa": "ਗੋਂਡਲ",
+      "or": "ଗୋଣ୍ଡାଲ",
+      "as": "গোন্দাল"
+    }
+  },
+  "Surat": {
+    "canonical": "Surat",
+    "type": "district_and_mandi",
+    "state": "Gujarat",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "names": {
+      "en": "Surat",
+      "mr": "सुरत",
+      "hi": "सूरत",
+      "gu": "સુરત",
+      "ta": "சூரத்",
+      "te": "సూరత్",
+      "kn": "ಸೂರತ್",
+      "ml": "സൂററ്റ്",
+      "bn": "সুরাট",
+      "pa": "ਸੂਰਤ",
+      "or": "ସୁରଟ",
+      "as": "চুৰাট"
+    }
+  },
+  "Indore": {
+    "canonical": "Indore",
+    "type": "district_and_mandi",
+    "state": "Madhya Pradesh",
+    "lat": 22.7196,
+    "lon": 75.8577,
+    "names": {
+      "en": "Indore",
+      "mr": "इंदूर",
+      "hi": "इंदौर",
+      "gu": "ઇન્દોર",
+      "ta": "இந்தூர்",
+      "te": "ఇండోర్",
+      "kn": "ಇಂದೋರ್",
+      "ml": "ഇൻഡോർ",
+      "bn": "ইন্দোর",
+      "pa": "ਇੰਦੌਰ",
+      "or": "ଇନ୍ଦୋର",
+      "as": "ইন্দোৰ"
+    }
+  },
+  "Ujjain": {
+    "canonical": "Ujjain",
+    "type": "district_and_mandi",
+    "state": "Madhya Pradesh",
+    "lat": 23.1765,
+    "lon": 75.7885,
+    "names": {
+      "en": "Ujjain",
+      "mr": "उज्जैन",
+      "hi": "उज्जैन",
+      "gu": "ઉજ્જૈન",
+      "ta": "உஜ்ஜைன்",
+      "te": "ఉజ్జయిని",
+      "kn": "ಉಜ್ಜಯಿನಿ",
+      "ml": "ഉജ്ജയിൻ",
+      "bn": "উজ্জয়িনী",
+      "pa": "ਉਜੈਨ",
+      "or": "ଉଜ୍ଜୟିନୀ",
+      "as": "উজ্বয়িনী"
+    }
+  },
+  "Agra": {
+    "canonical": "Agra",
+    "type": "district_and_mandi",
+    "state": "Uttar Pradesh",
+    "lat": 27.1767,
+    "lon": 78.0081,
+    "names": {
+      "en": "Agra",
+      "mr": "आग्रा",
+      "hi": "आगरा",
+      "gu": "આગ્રા",
+      "ta": "ஆக்ரா",
+      "te": "ఆగ్రా",
+      "kn": "ಆಗ್ರಾ",
+      "ml": "ആഗ്ര",
+      "bn": "আগ্রা",
+      "pa": "ਆਗਰਾ",
+      "or": "ଆଗ୍ରା",
+      "as": "আগ্ৰা"
+    }
+  },
+  "Khanna": {
+    "canonical": "Khanna",
+    "type": "mandi",
+    "district": "Ludhiana",
+    "state": "Punjab",
+    "lat": 30.7071,
+    "lon": 76.2168,
+    "names": {
+      "en": "Khanna",
+      "mr": "खन्ना",
+      "hi": "खन्ना",
+      "gu": "ખન્ના",
+      "ta": "கன்னா",
+      "te": "ఖన్నా",
+      "kn": "ಖನ್ನಾ",
+      "ml": "ഖന്ന",
+      "bn": "খান্না",
+      "pa": "ਖੰਨਾ",
+      "or": "ଖାନ୍ନା",
+      "as": "খান্না"
+    }
+  },
+  "Ludhiana": {
+    "canonical": "Ludhiana",
+    "type": "district_and_mandi",
+    "state": "Punjab",
+    "lat": 30.901,
+    "lon": 75.8573,
+    "names": {
+      "en": "Ludhiana",
+      "mr": "लुधियाना",
+      "hi": "लुधियाना",
+      "gu": "લુધિયાણા",
+      "ta": "லூதியானா",
+      "te": "లూధియానా",
+      "kn": "ಲುಧಿಯಾನ",
+      "ml": "ലുധിയാന",
+      "bn": "লুধিয়ানা",
+      "pa": "ਲੁਧਿਆਣਾ",
+      "or": "ଲୁଧିଆନା",
+      "as": "লুধিয়ানা"
+    }
+  },
+  "Madurai": {
+    "canonical": "Madurai",
+    "type": "district_and_mandi",
+    "state": "Tamil Nadu",
+    "lat": 9.9252,
+    "lon": 78.1198,
+    "names": {
+      "en": "Madurai", "mr": "मदुराई", "hi": "मदुरै", "gu": "મદુરાઈ", "ta": "மதுரை",
+      "te": "మధురై", "kn": "ಮಧುರೈ", "ml": "മധുര", "bn": "মাদুরাই", "pa": "ਮਦੁਰਾਈ",
+      "or": "ମଦୁରାଇ", "as": "মাদুৰাই"
+    }
+  },
+  "Warangal": {
+    "canonical": "Warangal",
+    "type": "district_and_mandi",
+    "state": "Telangana",
+    "lat": 17.9689,
+    "lon": 79.5941,
+    "names": {
+      "en": "Warangal", "mr": "वारंगळ", "hi": "वारंगल", "gu": "વારંગલ", "ta": "வாரங்கல்",
+      "te": "వరంగల్", "kn": "ವರಂಗಲ್", "ml": "വാറങ്കൽ", "bn": "ওয়ারাঙ্গল", "pa": "ਵਾਰੰਗਲ",
+      "or": "ୱାରଙ୍ଗଲ", "as": "ৱাৰাংগল"
+    }
+  },
+  "Dharwad": {
+    "canonical": "Dharwad",
+    "type": "district_and_mandi",
+    "state": "Karnataka",
+    "lat": 15.4589,
+    "lon": 75.0078,
+    "names": {
+      "en": "Dharwad", "mr": "धारवाड", "hi": "धारवाड़", "gu": "ધારવાડ", "ta": "தார்வாட்",
+      "te": "ధార్వాడ్", "kn": "ಧಾರವಾಡ", "ml": "ധാർവാഡ്", "bn": "ধারওয়াদ", "pa": "ਧਾਰਵਾੜ",
+      "or": "ଧାରୱାଡ", "as": "ধাৰৱাদ"
+    }
+  },
+  "Palakkad": {
+    "canonical": "Palakkad",
+    "type": "district_and_mandi",
+    "state": "Kerala",
+    "lat": 10.7867,
+    "lon": 76.6548,
+    "names": {
+      "en": "Palakkad", "mr": "पालक्काड", "hi": "पालक्काड", "gu": "પાલક્કાડ", "ta": "பாலக்காடு",
+      "te": "పాలక్కాడ్", "kn": "ಪಾಲಕ್ಕಾಡ್", "ml": "പാലക്കാട്", "bn": "পালঘাট", "pa": "ਪਾਲੱਕੜ",
+      "or": "ପାଲକ୍କାଡ", "as": "পালঘাট"
+    }
+  },
+  "Burdwan": {
+    "canonical": "Burdwan",
+    "type": "district_and_mandi",
+    "state": "West Bengal",
+    "lat": 23.2324,
+    "lon": 87.8615,
+    "names": {
+      "en": "Burdwan", "mr": "बर्दवान", "hi": "बर्दवान", "gu": "બર્ધમાન", "ta": "பர்த்வான்",
+      "te": "బర్ధమాన్", "kn": "ಬರ್ಧಮಾನ್", "ml": "ബർദ്വാൻ", "bn": "বর্ধমান", "pa": "ਬਰਧਮਾਨ",
+      "or": "ବର୍ଦ୍ଧମାନ", "as": "বৰ্ধমান"
+    }
+  },
+  "Cuttack": {
+    "canonical": "Cuttack",
+    "type": "district_and_mandi",
+    "state": "Odisha",
+    "lat": 20.4625,
+    "lon": 85.8828,
+    "names": {
+      "en": "Cuttack", "mr": "कटक", "hi": "कटक", "gu": "કટક", "ta": "கட்டாக்",
+      "te": "కటక్", "kn": "ಕಟಕ್", "ml": "കട്ടക്ക്", "bn": "কটক", "pa": "ਕਟਕ",
+      "or": "କଟକ", "as": "কটক"
+    }
+  },
+  "Nagaon": {
+    "canonical": "Nagaon",
+    "type": "district_and_mandi",
+    "state": "Assam",
+    "lat": 26.3464,
+    "lon": 92.684,
+    "names": {
+      "en": "Nagaon", "mr": "नगाव", "hi": "नगांव", "gu": "નગાંવ", "ta": "நாகோன்",
+      "te": "నగావ్", "kn": "ನಾಗಾಂವ್", "ml": "നഗാവ്", "bn": "নগাঁও", "pa": "ਨਗਾਓਂ",
+      "or": "ନଗାଓଁ", "as": "নগাঁও"
+    }
+  }
+}

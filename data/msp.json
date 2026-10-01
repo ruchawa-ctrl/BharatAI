@@ -1,0 +1,79 @@
+{
+  "Wheat": {
+    "msp_price_per_quintal": 2275,
+    "year": "2024-25",
+    "season": "Rabi",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Wheat (गेहूं / गहू)"
+  },
+  "Soybean": {
+    "msp_price_per_quintal": 4892,
+    "year": "2024-25",
+    "season": "Kharif",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Soybean (सोयाबीन)"
+  },
+  "Cotton": {
+    "msp_price_per_quintal": 7121,
+    "year": "2024-25",
+    "season": "Kharif",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Cotton / Kapas (कपास / कापूस)"
+  },
+  "Tur": {
+    "msp_price_per_quintal": 7550,
+    "year": "2024-25",
+    "season": "Kharif",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Tur / Arhar (अरहर / तूर)"
+  },
+  "Gram": {
+    "msp_price_per_quintal": 5440,
+    "year": "2024-25",
+    "season": "Rabi",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Gram / Chana (चना / हरभरा)"
+  },
+  "Mustard": {
+    "msp_price_per_quintal": 5650,
+    "year": "2024-25",
+    "season": "Rabi",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Rapeseed & Mustard (सरसों / मोहरी)"
+  },
+  "Paddy": {
+    "msp_price_per_quintal": 2300,
+    "year": "2024-25",
+    "season": "Kharif",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Common Paddy / Rice (धान / भात)"
+  },
+  "Maize": {
+    "msp_price_per_quintal": 2225,
+    "year": "2024-25",
+    "season": "Kharif",
+    "perishability": "low",
+    "description": "Government Minimum Support Price for Maize (मक्का / मका)"
+  },
+  "Onion": {
+    "msp_price_per_quintal": null,
+    "year": "2024-25",
+    "season": "All-season",
+    "perishability": "medium",
+    "description": "No central MSP for Onion (प्याज / कांदा). Traded under open market & buffer schemes."
+  },
+  "Tomato": {
+    "msp_price_per_quintal": null,
+    "year": "2024-25",
+    "season": "All-season",
+    "perishability": "high",
+    "description": "No central MSP for Tomato (टमाटर / टोमॅटो). Highly perishable commodity."
+  },
+  "Potato": {
+    "msp_price_per_quintal": null,
+    "year": "2024-25",
+    "season": "Rabi/All-season",
+    "perishability": "medium",
+    "description": "No central MSP for Potato (आलू / बटाटा). Storable in cold storage."
+  }
+}

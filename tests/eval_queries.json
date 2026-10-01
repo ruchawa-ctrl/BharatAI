@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "query": "मेरे पास 20 क्विंटल प्याज है, बेचूं या रुकूं? पुणे",
+    "expected_language": "hi",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Onion",
+    "expected_location": "Pune",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_price_trend", "get_weather_forecast", "recommend_action"]
+  },
+  {
+    "id": 2,
+    "query": "सोयाबीन के लिए सबसे अच्छी मंडी कौन सी है लातूर के पास?",
+    "expected_language": "hi",
+    "expected_intent": "best_mandi",
+    "expected_crop": "Soybean",
+    "expected_location": "Latur",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "compare_nearby_mandis"]
+  },
+  {
+    "id": 3,
+    "query": "टमाटर का भाव",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Tomato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 4,
+    "query": "इंदौर में गेहूं का भाव क्या चल रहा है?",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Wheat",
+    "expected_location": "Indore",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_price_trend"]
+  },
+  {
+    "id": 5,
+    "query": "जब आलू 1800 पार कर जाए तो मुझे अलर्ट कर देना आगरा में",
+    "expected_language": "hi",
+    "expected_intent": "set_alert",
+    "expected_crop": "Potato",
+    "expected_location": "Agra",
+    "requires_clarification": false,
+    "expected_tools": ["create_price_alert"]
+  },
+  {
+    "id": 6,
+    "query": "नासिक में अगले 5 दिन का मौसम कैसा रहेगा? बारिश होगी क्या?",
+    "expected_language": "hi",
+    "expected_intent": "weather",
+    "expected_crop": null,
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_weather_forecast"]
+  },
+  {
+    "id": 7,
+    "query": "कपास का भाव और एमएसपी क्या है राजकोट में?",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Cotton",
+    "expected_location": "Rajkot",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_msp"]
+  },
+  {
+    "id": 8,
+    "query": "पुणे में भाव क्या है?",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": null,
+    "expected_location": "Pune",
+    "requires_clarification": true,
+    "clarification_type": "missing_crop",
+    "expected_tools": []
+  },
+  {
+    "id": 9,
+    "query": "भारत का प्रधानमंत्री कौन है?",
+    "expected_language": "hi",
+    "expected_intent": "off_topic",
+    "expected_crop": null,
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "off_topic",
+    "expected_tools": []
+  },
+  {
+    "id": 10,
+    "query": "आगरा में सरसों का भाव बताओ",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Mustard",
+    "expected_location": "Agra",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 11,
+    "query": "आज कांद्याचा भाव काय आहे नाशिकमध्ये?",
+    "expected_language": "mr",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_price_trend"]
+  },
+  {
+    "id": 12,
+    "query": "माझ्याकडे 20 क्विंटल कांदा आहे, आज विकू की थांबू? नाशिक.",
+    "expected_language": "mr",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Onion",
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_price_trend", "get_weather_forecast", "recommend_action"]
+  },
+  {
+    "id": 13,
+    "query": "लातूर जवळ सोयाबीनसाठी सर्वात चांगली बाजारपेठ कोणती?",
+    "expected_language": "mr",
+    "expected_intent": "best_mandi",
+    "expected_crop": "Soybean",
+    "expected_location": "Latur",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "compare_nearby_mandis"]
+  },
+  {
+    "id": 14,
+    "query": "पुण्यात टोमॅटोचे दर ४० रुपये झाले की सांग",
+    "expected_language": "mr",
+    "expected_intent": "set_alert",
+    "expected_crop": "Tomato",
+    "expected_location": "Pune",
+    "requires_clarification": false,
+    "expected_tools": ["create_price_alert"]
+  },
+  {
+    "id": 15,
+    "query": "नाशिकचे हवामान कसे आहे? पाऊस पडेल का?",
+    "expected_language": "mr",
+    "expected_intent": "weather",
+    "expected_crop": null,
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_weather_forecast"]
+  },
+  {
+    "id": 16,
+    "query": "कांद्याचा भाव",
+    "expected_language": "mr",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 17,
+    "query": "पुण्यात आज काय भाव आहे?",
+    "expected_language": "mr",
+    "expected_intent": "price_check",
+    "expected_crop": null,
+    "expected_location": "Pune",
+    "requires_clarification": true,
+    "clarification_type": "missing_crop",
+    "expected_tools": []
+  },
+  {
+    "id": 18,
+    "query": "गहू विकू की थांबू? लासलगाव",
+    "expected_language": "mr",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Wheat",
+    "expected_location": "Lasalgaon",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 19,
+    "query": "पॅरिस शहरात क्रिकेट मॅच कोण जिंकले?",
+    "expected_language": "mr",
+    "expected_intent": "off_topic",
+    "expected_crop": null,
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "off_topic",
+    "expected_tools": []
+  },
+  {
+    "id": 20,
+    "query": "सोलापूरमध्ये तुरीचा भाव किती चालू आहे?",
+    "expected_language": "mr",
+    "expected_intent": "price_check",
+    "expected_crop": "Tur",
+    "expected_location": "Solapur",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 21,
+    "query": "Tell me when tomato crosses 25 rupees per kg in Pune",
+    "expected_language": "en",
+    "expected_intent": "set_alert",
+    "expected_crop": "Tomato",
+    "expected_location": "Pune",
+    "requires_clarification": false,
+    "expected_tools": ["create_price_alert"]
+  },
+  {
+    "id": 22,
+    "query": "What is the price of wheat in Ludhiana?",
+    "expected_language": "en",
+    "expected_intent": "price_check",
+    "expected_crop": "Wheat",
+    "expected_location": "Ludhiana",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "get_price_trend"]
+  },
+  {
+    "id": 23,
+    "query": "I have 50 quintals of soybean in Indore, should I sell or hold?",
+    "expected_language": "en",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Soybean",
+    "expected_location": "Indore",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 24,
+    "query": "Which is the best mandi for onion near Nashik?",
+    "expected_language": "en",
+    "expected_intent": "best_mandi",
+    "expected_crop": "Onion",
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "compare_nearby_mandis"]
+  },
+  {
+    "id": 25,
+    "query": "What is the capital of France?",
+    "expected_language": "en",
+    "expected_intent": "off_topic",
+    "expected_crop": null,
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "off_topic",
+    "expected_tools": []
+  },
+  {
+    "id": 26,
+    "query": "Give me the price in Agra mandi",
+    "expected_language": "en",
+    "expected_intent": "price_check",
+    "expected_crop": null,
+    "expected_location": "Agra",
+    "requires_clarification": true,
+    "clarification_type": "missing_crop",
+    "expected_tools": []
+  },
+  {
+    "id": 27,
+    "query": "Bhai Pune me onion ka rate kya chal raha hai?",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": "Pune",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 28,
+    "query": "Kanda rate Nashik madhe sanga, sell or hold?",
+    "expected_language": "mr",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Onion",
+    "expected_location": "Nashik",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 29,
+    "query": "Soybean alert set karo jab 4800 cross ho jaye Latur me",
+    "expected_language": "hi",
+    "expected_intent": "set_alert",
+    "expected_crop": "Soybean",
+    "expected_location": "Latur",
+    "requires_clarification": false,
+    "expected_tools": ["create_price_alert"]
+  },
+  {
+    "id": 30,
+    "query": "Tomato ka bhav kya hai bro?",
+    "expected_language": "hi",
+    "expected_intent": "price_check",
+    "expected_crop": "Tomato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 31,
+    "query": "Aloo rate in Agra mandi today",
+    "expected_language": "en",
+    "expected_intent": "price_check",
+    "expected_crop": "Potato",
+    "expected_location": "Agra",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 32,
+    "query": "Weather in Pune next 3 days rain hoga kya?",
+    "expected_language": "hi",
+    "expected_intent": "weather",
+    "expected_crop": null,
+    "expected_location": "Pune",
+    "requires_clarification": false,
+    "expected_tools": ["get_weather_forecast"]
+  },
+  {
+    "id": 33,
+    "query": "રાજકોટમાં કપાસનો આજનો ભાવ શું છે અને વેચવું કે રોકાવું?",
+    "expected_language": "gu",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Cotton",
+    "expected_location": "Rajkot",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 34,
+    "query": "ડુંગળીનો ભાવ",
+    "expected_language": "gu",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 35,
+    "query": "மதுரையில் தக்காளி விலை என்ன மற்றும் இப்போது விற்கலாமா?",
+    "expected_language": "ta",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Tomato",
+    "expected_location": "Madurai",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 36,
+    "query": "வெங்காய விலை",
+    "expected_language": "ta",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 37,
+    "query": "వరంగల్‌లో పత్తి ధర ఎంత మరియు అమ్మాలా ఆగాలా?",
+    "expected_language": "te",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Cotton",
+    "expected_location": "Warangal",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 38,
+    "query": "టమోటా ధర",
+    "expected_language": "te",
+    "expected_intent": "price_check",
+    "expected_crop": "Tomato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 39,
+    "query": "ಧಾರವಾಡದಲ್ಲಿ ಹತ್ತಿ ಬೆಲೆ ಎಷ್ಟು ಮತ್ತು ಮಾರಾಟ ಮಾಡಬೇಕೇ?",
+    "expected_language": "kn",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Cotton",
+    "expected_location": "Dharwad",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 40,
+    "query": "ಈರುಳ್ಳಿ ಬೆಲೆ",
+    "expected_language": "kn",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 41,
+    "query": "പാലക്കാട് നെല്ലിന്റെ വിപണി നിരക്ക് എത്രയാണ്?",
+    "expected_language": "ml",
+    "expected_intent": "price_check",
+    "expected_crop": "Paddy",
+    "expected_location": "Palakkad",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 42,
+    "query": "തക്കാളി വില",
+    "expected_language": "ml",
+    "expected_intent": "price_check",
+    "expected_crop": "Tomato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 43,
+    "query": "বর্ধমান জেলায় ধানের আজকের দাম কত এবং বিক্রি করব না রাখব?",
+    "expected_language": "bn",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Paddy",
+    "expected_location": "Burdwan",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 44,
+    "query": "আলুর দাম",
+    "expected_language": "bn",
+    "expected_intent": "price_check",
+    "expected_crop": "Potato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 45,
+    "query": "ਖੰਨਾ ਮੰਡੀ ਵਿੱਚ ਕਣਕ ਦਾ ਅੱਜ ਦਾ ਭਾਅ ਕੀ ਹੈ?",
+    "expected_language": "pa",
+    "expected_intent": "price_check",
+    "expected_crop": "Wheat",
+    "expected_location": "Khanna",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices"]
+  },
+  {
+    "id": 46,
+    "query": "ਆਲੂ ਦਾ ਭਾਅ",
+    "expected_language": "pa",
+    "expected_intent": "price_check",
+    "expected_crop": "Potato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 47,
+    "query": "କଟକରେ ଧାନର ଆଜିର ମଣ୍ଡି ଦର କେତେ ଏବଂ ବିକ୍ରି କରିବି ନା ରଖିବି?",
+    "expected_language": "or",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Paddy",
+    "expected_location": "Cuttack",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 48,
+    "query": "ପିଆଜ ଦର",
+    "expected_language": "or",
+    "expected_intent": "price_check",
+    "expected_crop": "Onion",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  },
+  {
+    "id": 49,
+    "query": "নগাঁৱত ধানৰ আজিৰ বজাৰ দাম কিমান আৰু বিক্ৰী কৰিম নে ৰাখিম?",
+    "expected_language": "as",
+    "expected_intent": "sell_or_hold",
+    "expected_crop": "Paddy",
+    "expected_location": "Nagaon",
+    "requires_clarification": false,
+    "expected_tools": ["get_mandi_prices", "recommend_action"]
+  },
+  {
+    "id": 50,
+    "query": "আলুৰ দাম",
+    "expected_language": "as",
+    "expected_intent": "price_check",
+    "expected_crop": "Potato",
+    "expected_location": null,
+    "requires_clarification": true,
+    "clarification_type": "missing_location",
+    "expected_tools": []
+  }
+]

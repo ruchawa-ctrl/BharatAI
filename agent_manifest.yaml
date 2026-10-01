@@ -1,0 +1,93 @@
+name: "KisanSaathi"
+version: "1.0.0"
+title: "KisanSaathi: Multilingual Mandi Agent"
+description: "Autonomous, multilingual AgriTech agent helping small and marginal Indian farmers decide whether to sell, hold, or transport produce to a better-paying mandi."
+author: "BharatAgentic Hackathon Team"
+domain: "AgriTech & Rural Bharat"
+entrypoint: "app.main:app"
+port: 8000
+
+languages:
+  - code: "mr"
+    name: "Marathi (मराठी)"
+  - code: "hi"
+    name: "Hindi (हिन्दी)"
+  - code: "en"
+    name: "English"
+  - code: "gu"
+    name: "Gujarati (ગુજરાતી)"
+  - code: "ta"
+    name: "Tamil (தமிழ்)"
+
+endpoints:
+  chat:
+    path: "/chat"
+    method: "POST"
+    description: "Main agent conversational endpoint with visible execution steps, recommendation, and actions"
+  health:
+    path: "/health"
+    method: "GET"
+    description: "System health check"
+  alerts:
+    path: "/alerts"
+    method: "POST"
+    description: "Register a target price alert in SQLite"
+  user_alerts:
+    path: "/alerts/{user_id}"
+    method: "GET"
+    description: "Fetch all active alerts for a farmer"
+  check_alerts:
+    path: "/alerts/check"
+    method: "POST"
+    description: "Trigger evaluation of active alerts against latest market prices"
+  ui:
+    path: "/"
+    method: "GET"
+    description: "Mobile-first single page application with Web Speech voice STT & TTS"
+  docs:
+    path: "/docs"
+    method: "GET"
+    description: "Interactive OpenAPI documentation"
+
+environment_variables:
+  - name: "GEMINI_API_KEY"
+    required: false
+    description: "Google Gemini API key (optional: fallback deterministic synthesizer ensures 100% uptime if omitted)"
+  - name: "LLM_MODEL"
+    default: "gemini-3.8-flash"
+    description: "Gemini model identifier for agent synthesis"
+  - name: "DATA_GOV_API_KEY"
+    required: false
+    description: "data.gov.in API key for live Agmarknet prices (falls back to bundled 30-day realistic CSV dataset if omitted)"
+  - name: "PORT"
+    default: "8000"
+    description: "Application HTTP port"
+  - name: "HOST"
+    default: "0.0.0.0"
+    description: "Bind host"
+
+tools:
+  - name: "detect_language"
+    description: "Detects user language (Marathi, Hindi, English, Gujarati, Tamil)"
+  - name: "extract_query"
+    description: "Extracts crop, quantity, district, target price, and intent"
+  - name: "normalize_crop"
+    description: "Maps multilingual aliases (कांदा, प्याज, dungli) to canonical crops"
+  - name: "get_mandi_prices"
+    description: "Fetches live or verified fallback mandi prices with source and freshness"
+  - name: "get_price_trend"
+    description: "Calculates 7-day and 30-day percentage momentum and price volatility"
+  - name: "get_weather_forecast"
+    description: "Forecasts 5-day weather and flags 48-hour heavy rain risks via Open-Meteo"
+  - name: "get_msp"
+    description: "Compares current rates with statutory government Minimum Support Prices"
+  - name: "compare_nearby_mandis"
+    description: "Ranks mandis by net price after factoring in per-km transport costs"
+  - name: "recommend_action"
+    description: "Rule-based scoring for SELL_NOW, HOLD, or SHIFT_MANDI"
+  - name: "create_price_alert"
+    description: "Action tool storing price triggers in SQLite"
+  - name: "check_alerts"
+    description: "Background evaluator triggering active alerts"
+  - name: "make_share_summary"
+    description: "Action tool generating WhatsApp-ready copy with emojis"

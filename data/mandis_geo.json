@@ -1,0 +1,122 @@
+[
+  {
+    "mandi": "Nashik",
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "lat": 19.9975,
+    "lon": 73.7898,
+    "major_crops": ["Onion", "Tomato", "Prapes", "Soybean"]
+  },
+  {
+    "mandi": "Lasalgaon",
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "lat": 20.1472,
+    "lon": 74.2253,
+    "major_crops": ["Onion", "Tomato", "Soybean"]
+  },
+  {
+    "mandi": "Pimpalgaon",
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "lat": 20.1718,
+    "lon": 73.9854,
+    "major_crops": ["Tomato", "Onion", "Grapes"]
+  },
+  {
+    "mandi": "Pune",
+    "district": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "major_crops": ["Onion", "Potato", "Tomato", "Wheat", "Gram"]
+  },
+  {
+    "mandi": "Latur",
+    "district": "Latur",
+    "state": "Maharashtra",
+    "lat": 18.4088,
+    "lon": 76.5604,
+    "major_crops": ["Soybean", "Tur", "Gram", "Cotton"]
+  },
+  {
+    "mandi": "Solapur",
+    "district": "Solapur",
+    "state": "Maharashtra",
+    "lat": 17.6599,
+    "lon": 75.9064,
+    "major_crops": ["Onion", "Tur", "Gram", "Pomegranate"]
+  },
+  {
+    "mandi": "Ahmednagar",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "lat": 19.0948,
+    "lon": 74.7480,
+    "major_crops": ["Onion", "Soybean", "Cotton", "Wheat"]
+  },
+  {
+    "mandi": "Nagpur",
+    "district": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "major_crops": ["Cotton", "Soybean", "Tur", "Wheat"]
+  },
+  {
+    "mandi": "Rajkot",
+    "district": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.3039,
+    "lon": 70.8022,
+    "major_crops": ["Cotton", "Groundnut", "Onion", "Wheat"]
+  },
+  {
+    "mandi": "Gondal",
+    "district": "Rajkot",
+    "state": "Gujarat",
+    "lat": 21.9619,
+    "lon": 70.7923,
+    "major_crops": ["Onion", "Cotton", "Groundnut", "Chilli"]
+  },
+  {
+    "mandi": "Surat",
+    "district": "Surat",
+    "state": "Gujarat",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "major_crops": ["Paddy", "Vegetables", "Tomato", "Sugarcane"]
+  },
+  {
+    "mandi": "Indore",
+    "district": "Indore",
+    "state": "Madhya Pradesh",
+    "lat": 22.7196,
+    "lon": 75.8577,
+    "major_crops": ["Soybean", "Wheat", "Potato", "Onion", "Gram"]
+  },
+  {
+    "mandi": "Ujjain",
+    "district": "Ujjain",
+    "state": "Madhya Pradesh",
+    "lat": 23.1765,
+    "lon": 75.7885,
+    "major_crops": ["Soybean", "Wheat", "Gram"]
+  },
+  {
+    "mandi": "Agra",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "lat": 27.1767,
+    "lon": 78.0081,
+    "major_crops": ["Potato", "Mustard", "Wheat", "Vegetables"]
+  },
+  {
+    "mandi": "Khanna",
+    "district": "Ludhiana",
+    "state": "Punjab",
+    "lat": 30.7071,
+    "lon": 76.2168,
+    "major_crops": ["Wheat", "Paddy", "Maize"]
+  }
+]

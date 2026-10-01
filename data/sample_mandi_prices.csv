@@ -1,0 +1,714 @@
+date,state,district,mandi,crop,variety,min_price,max_price,modal_price
+2026-09-01,Maharashtra,Nashik,Nashik,Onion,Red,2089,3059,2624
+2026-09-01,Maharashtra,Nashik,Lasalgaon,Onion,Red,2201,3215,2733
+2026-09-01,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1325,2265,1795
+2026-09-01,Maharashtra,Pune,Pune,Onion,Local,1933,2909,2471
+2026-09-01,Maharashtra,Pune,Pune,Tomato,Local,1373,2303,1838
+2026-09-01,Maharashtra,Pune,Pune,Potato,Jyoti,1382,2172,1777
+2026-09-01,Maharashtra,Pune,Pune,Wheat,Lokwan,2196,2890,2543
+2026-09-01,Maharashtra,Latur,Latur,Soybean,Yellow,4151,4967,4609
+2026-09-01,Maharashtra,Latur,Latur,Tur,White,9231,11511,10671
+2026-09-01,Maharashtra,Solapur,Solapur,Onion,Red,1895,2875,2435
+2026-09-01,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2038,3010,2574
+2026-09-01,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6596,7492,7094
+2026-09-01,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6777,7669,7273
+2026-09-01,Gujarat,Rajkot,Gondal,Onion,Pili,1849,2783,2341
+2026-09-01,Gujarat,Surat,Surat,Tomato,Deshi,1427,2447,1937
+2026-09-01,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4184,4994,4589
+2026-09-01,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2188,2830,2534
+2026-09-01,Madhya Pradesh,Indore,Indore,Potato,Chips,1319,2115,1717
+2026-09-01,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4117,4929,4523
+2026-09-01,Uttar Pradesh,Agra,Agra,Potato,Desi,1267,2025,1621
+2026-09-01,Uttar Pradesh,Agra,Agra,Wheat,Dara,2117,2763,2445
+2026-09-01,Uttar Pradesh,Agra,Agra,Mustard,Black,5125,5913,5519
+2026-09-01,Punjab,Ludhiana,Khanna,Wheat,Kanak,2236,2880,2583
+2026-09-02,Maharashtra,Nashik,Nashik,Onion,Red,2112,3084,2648
+2026-09-02,Maharashtra,Nashik,Lasalgaon,Onion,Red,2265,3282,2799
+2026-09-02,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1353,2290,1821
+2026-09-02,Maharashtra,Pune,Pune,Onion,Local,1944,2921,2483
+2026-09-02,Maharashtra,Pune,Pune,Tomato,Local,1336,2264,1800
+2026-09-02,Maharashtra,Pune,Pune,Potato,Jyoti,1388,2178,1783
+2026-09-02,Maharashtra,Pune,Pune,Wheat,Lokwan,2238,2933,2586
+2026-09-02,Maharashtra,Latur,Latur,Soybean,Yellow,4120,4935,4577
+2026-09-02,Maharashtra,Latur,Latur,Tur,White,9261,11542,10701
+2026-09-02,Maharashtra,Solapur,Solapur,Onion,Red,1845,2826,2385
+2026-09-02,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2019,2993,2556
+2026-09-02,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6636,7532,7134
+2026-09-02,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6789,7681,7285
+2026-09-02,Gujarat,Rajkot,Gondal,Onion,Pili,1853,2788,2346
+2026-09-02,Gujarat,Surat,Surat,Tomato,Deshi,1442,2460,1951
+2026-09-02,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4164,4973,4568
+2026-09-02,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2171,2813,2517
+2026-09-02,Madhya Pradesh,Indore,Indore,Potato,Chips,1287,2083,1685
+2026-09-02,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4187,4998,4593
+2026-09-02,Uttar Pradesh,Agra,Agra,Potato,Desi,1226,1984,1580
+2026-09-02,Uttar Pradesh,Agra,Agra,Wheat,Dara,2098,2744,2426
+2026-09-02,Uttar Pradesh,Agra,Agra,Mustard,Black,5117,5906,5512
+2026-09-02,Punjab,Ludhiana,Khanna,Wheat,Kanak,2252,2897,2600
+2026-09-03,Maharashtra,Nashik,Nashik,Onion,Red,2108,3082,2645
+2026-09-03,Maharashtra,Nashik,Lasalgaon,Onion,Red,2267,3286,2802
+2026-09-03,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1276,2210,1743
+2026-09-03,Maharashtra,Pune,Pune,Onion,Local,1986,2965,2526
+2026-09-03,Maharashtra,Pune,Pune,Tomato,Local,1364,2290,1827
+2026-09-03,Maharashtra,Pune,Pune,Potato,Jyoti,1451,2242,1846
+2026-09-03,Maharashtra,Pune,Pune,Wheat,Lokwan,2265,2960,2613
+2026-09-03,Maharashtra,Latur,Latur,Soybean,Yellow,4118,4932,4575
+2026-09-03,Maharashtra,Latur,Latur,Tur,White,9305,11587,10746
+2026-09-03,Maharashtra,Solapur,Solapur,Onion,Red,1856,2838,2397
+2026-09-03,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2008,2984,2546
+2026-09-03,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6599,7495,7097
+2026-09-03,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6807,7700,7304
+2026-09-03,Gujarat,Rajkot,Gondal,Onion,Pili,1884,2820,2377
+2026-09-03,Gujarat,Surat,Surat,Tomato,Deshi,1398,2415,1906
+2026-09-03,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4178,4986,4582
+2026-09-03,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2140,2783,2487
+2026-09-03,Madhya Pradesh,Indore,Indore,Potato,Chips,1292,2088,1690
+2026-09-03,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4141,4952,4547
+2026-09-03,Uttar Pradesh,Agra,Agra,Potato,Desi,1249,2006,1602
+2026-09-03,Uttar Pradesh,Agra,Agra,Wheat,Dara,2140,2786,2468
+2026-09-03,Uttar Pradesh,Agra,Agra,Mustard,Black,5083,5872,5478
+2026-09-03,Punjab,Ludhiana,Khanna,Wheat,Kanak,2233,2878,2581
+2026-09-04,Maharashtra,Nashik,Nashik,Onion,Red,2147,3123,2685
+2026-09-04,Maharashtra,Nashik,Lasalgaon,Onion,Red,2256,3277,2792
+2026-09-04,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1288,2220,1754
+2026-09-04,Maharashtra,Pune,Pune,Onion,Local,1932,2913,2473
+2026-09-04,Maharashtra,Pune,Pune,Tomato,Local,1395,2319,1857
+2026-09-04,Maharashtra,Pune,Pune,Potato,Jyoti,1395,2187,1791
+2026-09-04,Maharashtra,Pune,Pune,Wheat,Lokwan,2256,2951,2604
+2026-09-04,Maharashtra,Latur,Latur,Soybean,Yellow,4098,4911,4555
+2026-09-04,Maharashtra,Latur,Latur,Tur,White,9258,11542,10700
+2026-09-04,Maharashtra,Solapur,Solapur,Onion,Red,1897,2881,2439
+2026-09-04,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2057,3034,2596
+2026-09-04,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6629,7526,7128
+2026-09-04,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6852,7745,7349
+2026-09-04,Gujarat,Rajkot,Gondal,Onion,Pili,1880,2817,2374
+2026-09-04,Gujarat,Surat,Surat,Tomato,Deshi,1423,2439,1931
+2026-09-04,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4153,4961,4557
+2026-09-04,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2160,2803,2507
+2026-09-04,Madhya Pradesh,Indore,Indore,Potato,Chips,1249,2046,1648
+2026-09-04,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4143,4952,4548
+2026-09-04,Uttar Pradesh,Agra,Agra,Potato,Desi,1239,1996,1593
+2026-09-04,Uttar Pradesh,Agra,Agra,Wheat,Dara,2129,2776,2458
+2026-09-04,Uttar Pradesh,Agra,Agra,Mustard,Black,5074,5865,5470
+2026-09-04,Punjab,Ludhiana,Khanna,Wheat,Kanak,2215,2860,2563
+2026-09-05,Maharashtra,Nashik,Nashik,Onion,Red,2183,3161,2722
+2026-09-05,Maharashtra,Nashik,Lasalgaon,Onion,Red,2281,3304,2818
+2026-09-05,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1269,2198,1733
+2026-09-05,Maharashtra,Pune,Pune,Onion,Local,1993,2976,2535
+2026-09-05,Maharashtra,Pune,Pune,Tomato,Local,1359,2281,1820
+2026-09-05,Maharashtra,Pune,Pune,Potato,Jyoti,1435,2227,1831
+2026-09-05,Maharashtra,Pune,Pune,Wheat,Lokwan,2208,2903,2556
+2026-09-05,Maharashtra,Latur,Latur,Soybean,Yellow,4095,4907,4551
+2026-09-05,Maharashtra,Latur,Latur,Tur,White,9261,11546,10703
+2026-09-05,Maharashtra,Solapur,Solapur,Onion,Red,1875,2860,2417
+2026-09-05,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2088,3068,2628
+2026-09-05,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6664,7561,7163
+2026-09-05,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6816,7710,7313
+2026-09-05,Gujarat,Rajkot,Gondal,Onion,Pili,1931,2869,2425
+2026-09-05,Gujarat,Surat,Surat,Tomato,Deshi,1430,2444,1937
+2026-09-05,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4217,5024,4620
+2026-09-05,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2184,2828,2531
+2026-09-05,Madhya Pradesh,Indore,Indore,Potato,Chips,1292,2089,1691
+2026-09-05,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4127,4936,4532
+2026-09-05,Uttar Pradesh,Agra,Agra,Potato,Desi,1203,1959,1556
+2026-09-05,Uttar Pradesh,Agra,Agra,Wheat,Dara,2161,2808,2490
+2026-09-05,Uttar Pradesh,Agra,Agra,Mustard,Black,5133,5924,5529
+2026-09-05,Punjab,Ludhiana,Khanna,Wheat,Kanak,2201,2846,2549
+2026-09-06,Maharashtra,Nashik,Nashik,Onion,Red,2126,3106,2666
+2026-09-06,Maharashtra,Nashik,Lasalgaon,Onion,Red,2266,3292,2804
+2026-09-06,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1249,2175,1712
+2026-09-06,Maharashtra,Pune,Pune,Onion,Local,2018,3002,2560
+2026-09-06,Maharashtra,Pune,Pune,Tomato,Local,1320,2240,1780
+2026-09-06,Maharashtra,Pune,Pune,Potato,Jyoti,1434,2227,1830
+2026-09-06,Maharashtra,Pune,Pune,Wheat,Lokwan,2268,2964,2616
+2026-09-06,Maharashtra,Latur,Latur,Soybean,Yellow,4066,4876,4521
+2026-09-06,Maharashtra,Latur,Latur,Tur,White,9299,11585,10742
+2026-09-06,Maharashtra,Solapur,Solapur,Onion,Red,1898,2884,2441
+2026-09-06,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2102,3083,2642
+2026-09-06,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6657,7554,7155
+2026-09-06,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6853,7747,7350
+2026-09-06,Gujarat,Rajkot,Gondal,Onion,Pili,1894,2833,2388
+2026-09-06,Gujarat,Surat,Surat,Tomato,Deshi,1440,2453,1946
+2026-09-06,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4141,4947,4544
+2026-09-06,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2150,2794,2497
+2026-09-06,Madhya Pradesh,Indore,Indore,Potato,Chips,1316,2113,1714
+2026-09-06,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4130,4938,4534
+2026-09-06,Uttar Pradesh,Agra,Agra,Potato,Desi,1227,1982,1579
+2026-09-06,Uttar Pradesh,Agra,Agra,Wheat,Dara,2112,2759,2440
+2026-09-06,Uttar Pradesh,Agra,Agra,Mustard,Black,5111,5903,5507
+2026-09-06,Punjab,Ludhiana,Khanna,Wheat,Kanak,2247,2893,2595
+2026-09-07,Maharashtra,Nashik,Nashik,Onion,Red,2149,3131,2690
+2026-09-07,Maharashtra,Nashik,Lasalgaon,Onion,Red,2320,3349,2860
+2026-09-07,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1218,2142,1680
+2026-09-07,Maharashtra,Pune,Pune,Onion,Local,1978,2963,2521
+2026-09-07,Maharashtra,Pune,Pune,Tomato,Local,1355,2273,1814
+2026-09-07,Maharashtra,Pune,Pune,Potato,Jyoti,1405,2199,1802
+2026-09-07,Maharashtra,Pune,Pune,Wheat,Lokwan,2257,2954,2606
+2026-09-07,Maharashtra,Latur,Latur,Soybean,Yellow,4066,4875,4521
+2026-09-07,Maharashtra,Latur,Latur,Tur,White,9336,11624,10780
+2026-09-07,Maharashtra,Solapur,Solapur,Onion,Red,1894,2882,2438
+2026-09-07,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2098,3081,2640
+2026-09-07,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6676,7573,7175
+2026-09-07,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6813,7708,7311
+2026-09-07,Gujarat,Rajkot,Gondal,Onion,Pili,1885,2826,2381
+2026-09-07,Gujarat,Surat,Surat,Tomato,Deshi,1411,2423,1917
+2026-09-07,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4157,4963,4560
+2026-09-07,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2207,2852,2555
+2026-09-07,Madhya Pradesh,Indore,Indore,Potato,Chips,1316,2113,1715
+2026-09-07,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4092,4899,4496
+2026-09-07,Uttar Pradesh,Agra,Agra,Potato,Desi,1257,2012,1610
+2026-09-07,Uttar Pradesh,Agra,Agra,Wheat,Dara,2140,2787,2469
+2026-09-07,Uttar Pradesh,Agra,Agra,Mustard,Black,5139,5932,5536
+2026-09-07,Punjab,Ludhiana,Khanna,Wheat,Kanak,2195,2842,2544
+2026-09-08,Maharashtra,Nashik,Nashik,Onion,Red,2152,3136,2694
+2026-09-08,Maharashtra,Nashik,Lasalgaon,Onion,Red,2319,3350,2860
+2026-09-08,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1245,2166,1705
+2026-09-08,Maharashtra,Pune,Pune,Onion,Local,1982,2969,2526
+2026-09-08,Maharashtra,Pune,Pune,Tomato,Local,1289,2205,1747
+2026-09-08,Maharashtra,Pune,Pune,Potato,Jyoti,1416,2210,1813
+2026-09-08,Maharashtra,Pune,Pune,Wheat,Lokwan,2267,2964,2616
+2026-09-08,Maharashtra,Latur,Latur,Soybean,Yellow,4058,4866,4512
+2026-09-08,Maharashtra,Latur,Latur,Tur,White,9272,11561,10716
+2026-09-08,Maharashtra,Solapur,Solapur,Onion,Red,1924,2913,2468
+2026-09-08,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2050,3035,2593
+2026-09-08,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6668,7566,7167
+2026-09-08,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6806,7702,7304
+2026-09-08,Gujarat,Rajkot,Gondal,Onion,Pili,1887,2829,2383
+2026-09-08,Gujarat,Surat,Surat,Tomato,Deshi,1418,2428,1923
+2026-09-08,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4204,5009,4606
+2026-09-08,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2161,2807,2509
+2026-09-08,Madhya Pradesh,Indore,Indore,Potato,Chips,1283,2081,1682
+2026-09-08,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4155,4962,4559
+2026-09-08,Uttar Pradesh,Agra,Agra,Potato,Desi,1256,2010,1608
+2026-09-08,Uttar Pradesh,Agra,Agra,Wheat,Dara,2154,2802,2483
+2026-09-08,Uttar Pradesh,Agra,Agra,Mustard,Black,5108,5901,5505
+2026-09-08,Punjab,Ludhiana,Khanna,Wheat,Kanak,2264,2911,2613
+2026-09-09,Maharashtra,Nashik,Nashik,Onion,Red,2172,3158,2715
+2026-09-09,Maharashtra,Nashik,Lasalgaon,Onion,Red,2323,3356,2865
+2026-09-09,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1245,2163,1704
+2026-09-09,Maharashtra,Pune,Pune,Onion,Local,2006,2995,2551
+2026-09-09,Maharashtra,Pune,Pune,Tomato,Local,1329,2243,1786
+2026-09-09,Maharashtra,Pune,Pune,Potato,Jyoti,1455,2250,1852
+2026-09-09,Maharashtra,Pune,Pune,Wheat,Lokwan,2254,2951,2603
+2026-09-09,Maharashtra,Latur,Latur,Soybean,Yellow,4058,4866,4512
+2026-09-09,Maharashtra,Latur,Latur,Tur,White,9299,11589,10744
+2026-09-09,Maharashtra,Solapur,Solapur,Onion,Red,1896,2886,2441
+2026-09-09,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2059,3046,2602
+2026-09-09,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6644,7542,7143
+2026-09-09,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6795,7691,7293
+2026-09-09,Gujarat,Rajkot,Gondal,Onion,Pili,1951,2893,2447
+2026-09-09,Gujarat,Surat,Surat,Tomato,Deshi,1422,2431,1926
+2026-09-09,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4160,4964,4562
+2026-09-09,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2218,2864,2566
+2026-09-09,Madhya Pradesh,Indore,Indore,Potato,Chips,1279,2077,1678
+2026-09-09,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4085,4890,4488
+2026-09-09,Uttar Pradesh,Agra,Agra,Potato,Desi,1185,1939,1537
+2026-09-09,Uttar Pradesh,Agra,Agra,Wheat,Dara,2181,2829,2510
+2026-09-09,Uttar Pradesh,Agra,Agra,Mustard,Black,5091,5886,5489
+2026-09-09,Punjab,Ludhiana,Khanna,Wheat,Kanak,2226,2873,2575
+2026-09-10,Maharashtra,Nashik,Nashik,Onion,Red,2164,3152,2708
+2026-09-10,Maharashtra,Nashik,Lasalgaon,Onion,Red,2299,3334,2842
+2026-09-10,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1224,2140,1682
+2026-09-10,Maharashtra,Pune,Pune,Onion,Local,1975,2966,2521
+2026-09-10,Maharashtra,Pune,Pune,Tomato,Local,1329,2241,1785
+2026-09-10,Maharashtra,Pune,Pune,Potato,Jyoti,1422,2218,1820
+2026-09-10,Maharashtra,Pune,Pune,Wheat,Lokwan,2234,2931,2583
+2026-09-10,Maharashtra,Latur,Latur,Soybean,Yellow,4100,4907,4554
+2026-09-10,Maharashtra,Latur,Latur,Tur,White,9301,11593,10747
+2026-09-10,Maharashtra,Solapur,Solapur,Onion,Red,1943,2935,2489
+2026-09-10,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2075,3064,2620
+2026-09-10,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6675,7574,7175
+2026-09-10,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6868,7765,7367
+2026-09-10,Gujarat,Rajkot,Gondal,Onion,Pili,1941,2884,2438
+2026-09-10,Gujarat,Surat,Surat,Tomato,Deshi,1377,2385,1881
+2026-09-10,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4188,4992,4590
+2026-09-10,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2197,2844,2546
+2026-09-10,Madhya Pradesh,Indore,Indore,Potato,Chips,1276,2075,1676
+2026-09-10,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4093,4898,4496
+2026-09-10,Uttar Pradesh,Agra,Agra,Potato,Desi,1186,1939,1538
+2026-09-10,Uttar Pradesh,Agra,Agra,Wheat,Dara,2157,2806,2487
+2026-09-10,Uttar Pradesh,Agra,Agra,Mustard,Black,5133,5928,5531
+2026-09-10,Punjab,Ludhiana,Khanna,Wheat,Kanak,2253,2900,2602
+2026-09-11,Maharashtra,Nashik,Nashik,Onion,Red,2217,3207,2762
+2026-09-11,Maharashtra,Nashik,Lasalgaon,Onion,Red,2365,3403,2909
+2026-09-11,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1176,2089,1632
+2026-09-11,Maharashtra,Pune,Pune,Onion,Local,1986,2978,2532
+2026-09-11,Maharashtra,Pune,Pune,Tomato,Local,1262,2172,1717
+2026-09-11,Maharashtra,Pune,Pune,Potato,Jyoti,1446,2242,1844
+2026-09-11,Maharashtra,Pune,Pune,Wheat,Lokwan,2244,2942,2593
+2026-09-11,Maharashtra,Latur,Latur,Soybean,Yellow,4047,4852,4499
+2026-09-11,Maharashtra,Latur,Latur,Tur,White,9311,11604,10757
+2026-09-11,Maharashtra,Solapur,Solapur,Onion,Red,1904,2897,2450
+2026-09-11,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2092,3082,2637
+2026-09-11,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6672,7570,7171
+2026-09-11,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6855,7752,7353
+2026-09-11,Gujarat,Rajkot,Gondal,Onion,Pili,1903,2847,2400
+2026-09-11,Gujarat,Surat,Surat,Tomato,Deshi,1394,2400,1897
+2026-09-11,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4148,4951,4549
+2026-09-11,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2183,2830,2531
+2026-09-11,Madhya Pradesh,Indore,Indore,Potato,Chips,1313,2111,1712
+2026-09-11,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4109,4913,4511
+2026-09-11,Uttar Pradesh,Agra,Agra,Potato,Desi,1181,1933,1532
+2026-09-11,Uttar Pradesh,Agra,Agra,Wheat,Dara,2160,2808,2489
+2026-09-11,Uttar Pradesh,Agra,Agra,Mustard,Black,5162,5958,5560
+2026-09-11,Punjab,Ludhiana,Khanna,Wheat,Kanak,2213,2861,2562
+2026-09-12,Maharashtra,Nashik,Nashik,Onion,Red,2180,3172,2726
+2026-09-12,Maharashtra,Nashik,Lasalgaon,Onion,Red,2385,3426,2931
+2026-09-12,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1159,2069,1614
+2026-09-12,Maharashtra,Pune,Pune,Onion,Local,1992,2985,2539
+2026-09-12,Maharashtra,Pune,Pune,Tomato,Local,1276,2184,1730
+2026-09-12,Maharashtra,Pune,Pune,Potato,Jyoti,1419,2216,1817
+2026-09-12,Maharashtra,Pune,Pune,Wheat,Lokwan,2254,2953,2604
+2026-09-12,Maharashtra,Latur,Latur,Soybean,Yellow,4091,4895,4543
+2026-09-12,Maharashtra,Latur,Latur,Tur,White,9347,11641,10794
+2026-09-12,Maharashtra,Solapur,Solapur,Onion,Red,1913,2907,2460
+2026-09-12,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2127,3119,2673
+2026-09-12,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6612,7511,7111
+2026-09-12,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6821,7719,7320
+2026-09-12,Gujarat,Rajkot,Gondal,Onion,Pili,1938,2884,2436
+2026-09-12,Gujarat,Surat,Surat,Tomato,Deshi,1334,2339,1836
+2026-09-12,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4171,4973,4572
+2026-09-12,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2183,2831,2532
+2026-09-12,Madhya Pradesh,Indore,Indore,Potato,Chips,1313,2112,1712
+2026-09-12,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4110,4913,4512
+2026-09-12,Uttar Pradesh,Agra,Agra,Potato,Desi,1223,1975,1574
+2026-09-12,Uttar Pradesh,Agra,Agra,Wheat,Dara,2176,2825,2505
+2026-09-12,Uttar Pradesh,Agra,Agra,Mustard,Black,5157,5954,5556
+2026-09-12,Punjab,Ludhiana,Khanna,Wheat,Kanak,2221,2870,2571
+2026-09-13,Maharashtra,Nashik,Nashik,Onion,Red,2207,3201,2754
+2026-09-13,Maharashtra,Nashik,Lasalgaon,Onion,Red,2364,3407,2911
+2026-09-13,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1173,2081,1627
+2026-09-13,Maharashtra,Pune,Pune,Onion,Local,1995,2990,2543
+2026-09-13,Maharashtra,Pune,Pune,Tomato,Local,1311,2217,1764
+2026-09-13,Maharashtra,Pune,Pune,Potato,Jyoti,1470,2268,1869
+2026-09-13,Maharashtra,Pune,Pune,Wheat,Lokwan,2211,2910,2561
+2026-09-13,Maharashtra,Latur,Latur,Soybean,Yellow,4064,4867,4516
+2026-09-13,Maharashtra,Latur,Latur,Tur,White,9299,11595,10747
+2026-09-13,Maharashtra,Solapur,Solapur,Onion,Red,1898,2894,2446
+2026-09-13,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2158,3153,2706
+2026-09-13,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6667,7566,7167
+2026-09-13,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6866,7765,7366
+2026-09-13,Gujarat,Rajkot,Gondal,Onion,Pili,1962,2909,2461
+2026-09-13,Gujarat,Surat,Surat,Tomato,Deshi,1348,2352,1850
+2026-09-13,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4126,4928,4527
+2026-09-13,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2217,2866,2567
+2026-09-13,Madhya Pradesh,Indore,Indore,Potato,Chips,1266,2065,1666
+2026-09-13,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4093,4896,4495
+2026-09-13,Uttar Pradesh,Agra,Agra,Potato,Desi,1175,1926,1526
+2026-09-13,Uttar Pradesh,Agra,Agra,Wheat,Dara,2182,2831,2512
+2026-09-13,Uttar Pradesh,Agra,Agra,Mustard,Black,5107,5904,5506
+2026-09-13,Punjab,Ludhiana,Khanna,Wheat,Kanak,2234,2883,2584
+2026-09-14,Maharashtra,Nashik,Nashik,Onion,Red,2243,3239,2791
+2026-09-14,Maharashtra,Nashik,Lasalgaon,Onion,Red,2353,3398,2901
+2026-09-14,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1206,2111,1658
+2026-09-14,Maharashtra,Pune,Pune,Onion,Local,2026,3023,2575
+2026-09-14,Maharashtra,Pune,Pune,Tomato,Local,1302,2206,1754
+2026-09-14,Maharashtra,Pune,Pune,Potato,Jyoti,1480,2278,1879
+2026-09-14,Maharashtra,Pune,Pune,Wheat,Lokwan,2211,2910,2561
+2026-09-14,Maharashtra,Latur,Latur,Soybean,Yellow,4098,4900,4549
+2026-09-14,Maharashtra,Latur,Latur,Tur,White,9308,11605,10756
+2026-09-14,Maharashtra,Solapur,Solapur,Onion,Red,1951,2948,2499
+2026-09-14,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2167,3163,2715
+2026-09-14,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6679,7579,7179
+2026-09-14,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6871,7770,7370
+2026-09-14,Gujarat,Rajkot,Gondal,Onion,Pili,1940,2888,2439
+2026-09-14,Gujarat,Surat,Surat,Tomato,Deshi,1355,2357,1856
+2026-09-14,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4142,4943,4542
+2026-09-14,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2195,2844,2544
+2026-09-14,Madhya Pradesh,Indore,Indore,Potato,Chips,1287,2087,1687
+2026-09-14,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4100,4901,4501
+2026-09-14,Uttar Pradesh,Agra,Agra,Potato,Desi,1214,1965,1565
+2026-09-14,Uttar Pradesh,Agra,Agra,Wheat,Dara,2123,2773,2453
+2026-09-14,Uttar Pradesh,Agra,Agra,Mustard,Black,5140,5939,5540
+2026-09-14,Punjab,Ludhiana,Khanna,Wheat,Kanak,2264,2913,2614
+2026-09-15,Maharashtra,Nashik,Nashik,Onion,Red,2241,3239,2790
+2026-09-15,Maharashtra,Nashik,Lasalgaon,Onion,Red,2358,3405,2907
+2026-09-15,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1123,2025,1574
+2026-09-15,Maharashtra,Pune,Pune,Onion,Local,2060,3059,2610
+2026-09-15,Maharashtra,Pune,Pune,Tomato,Local,1298,2200,1749
+2026-09-15,Maharashtra,Pune,Pune,Potato,Jyoti,1479,2278,1878
+2026-09-15,Maharashtra,Pune,Pune,Wheat,Lokwan,2220,2919,2570
+2026-09-15,Maharashtra,Latur,Latur,Soybean,Yellow,4023,4824,4474
+2026-09-15,Maharashtra,Latur,Latur,Tur,White,9372,11670,10821
+2026-09-15,Maharashtra,Solapur,Solapur,Onion,Red,1931,2929,2480
+2026-09-15,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2165,3163,2714
+2026-09-15,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6641,7541,7141
+2026-09-15,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6823,7723,7323
+2026-09-15,Gujarat,Rajkot,Gondal,Onion,Pili,1949,2898,2448
+2026-09-15,Gujarat,Surat,Surat,Tomato,Deshi,1324,2325,1824
+2026-09-15,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4144,4944,4544
+2026-09-15,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2204,2854,2554
+2026-09-15,Madhya Pradesh,Indore,Indore,Potato,Chips,1294,2094,1694
+2026-09-15,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4083,4884,4484
+2026-09-15,Uttar Pradesh,Agra,Agra,Potato,Desi,1218,1968,1568
+2026-09-15,Uttar Pradesh,Agra,Agra,Wheat,Dara,2177,2827,2507
+2026-09-15,Uttar Pradesh,Agra,Agra,Mustard,Black,5144,5943,5544
+2026-09-15,Punjab,Ludhiana,Khanna,Wheat,Kanak,2286,2935,2636
+2026-09-16,Maharashtra,Nashik,Nashik,Onion,Red,2277,3277,2827
+2026-09-16,Maharashtra,Nashik,Lasalgaon,Onion,Red,2361,3411,2911
+2026-09-16,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1180,2080,1630
+2026-09-16,Maharashtra,Pune,Pune,Onion,Local,2048,3048,2598
+2026-09-16,Maharashtra,Pune,Pune,Tomato,Local,1223,2123,1673
+2026-09-16,Maharashtra,Pune,Pune,Potato,Jyoti,1427,2227,1827
+2026-09-16,Maharashtra,Pune,Pune,Wheat,Lokwan,2243,2943,2593
+2026-09-16,Maharashtra,Latur,Latur,Soybean,Yellow,4024,4824,4474
+2026-09-16,Maharashtra,Latur,Latur,Tur,White,9323,11623,10773
+2026-09-16,Maharashtra,Solapur,Solapur,Onion,Red,1980,2980,2530
+2026-09-16,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2129,3129,2679
+2026-09-16,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6644,7544,7144
+2026-09-16,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6846,7746,7346
+2026-09-16,Gujarat,Rajkot,Gondal,Onion,Pili,1987,2937,2487
+2026-09-16,Gujarat,Surat,Surat,Tomato,Deshi,1336,2336,1836
+2026-09-16,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4153,4953,4553
+2026-09-16,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2186,2836,2536
+2026-09-16,Madhya Pradesh,Indore,Indore,Potato,Chips,1293,2093,1693
+2026-09-16,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4124,4924,4524
+2026-09-16,Uttar Pradesh,Agra,Agra,Potato,Desi,1222,1972,1572
+2026-09-16,Uttar Pradesh,Agra,Agra,Wheat,Dara,2142,2792,2472
+2026-09-16,Uttar Pradesh,Agra,Agra,Mustard,Black,5116,5916,5516
+2026-09-16,Punjab,Ludhiana,Khanna,Wheat,Kanak,2221,2871,2571
+2026-09-17,Maharashtra,Nashik,Nashik,Onion,Red,2273,3275,2824
+2026-09-17,Maharashtra,Nashik,Lasalgaon,Onion,Red,2405,3458,2957
+2026-09-17,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1103,2000,1551
+2026-09-17,Maharashtra,Pune,Pune,Onion,Local,2017,3018,2568
+2026-09-17,Maharashtra,Pune,Pune,Tomato,Local,1243,2141,1692
+2026-09-17,Maharashtra,Pune,Pune,Potato,Jyoti,1429,2229,1829
+2026-09-17,Maharashtra,Pune,Pune,Wheat,Lokwan,2244,2945,2595
+2026-09-17,Maharashtra,Latur,Latur,Soybean,Yellow,4025,4824,4474
+2026-09-17,Maharashtra,Latur,Latur,Tur,White,9372,11673,10822
+2026-09-17,Maharashtra,Solapur,Solapur,Onion,Red,1986,2987,2536
+2026-09-17,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2172,3174,2723
+2026-09-17,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6682,7582,7182
+2026-09-17,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6813,7713,7313
+2026-09-17,Gujarat,Rajkot,Gondal,Onion,Pili,1928,2879,2429
+2026-09-17,Gujarat,Surat,Surat,Tomato,Deshi,1313,2311,1812
+2026-09-17,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4126,4925,4525
+2026-09-17,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2231,2881,2581
+2026-09-17,Madhya Pradesh,Indore,Indore,Potato,Chips,1265,2065,1665
+2026-09-17,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4103,4902,4503
+2026-09-17,Uttar Pradesh,Agra,Agra,Potato,Desi,1231,1981,1581
+2026-09-17,Uttar Pradesh,Agra,Agra,Wheat,Dara,2181,2831,2511
+2026-09-17,Uttar Pradesh,Agra,Agra,Mustard,Black,5131,5932,5532
+2026-09-17,Punjab,Ludhiana,Khanna,Wheat,Kanak,2266,2917,2617
+2026-09-18,Maharashtra,Nashik,Nashik,Onion,Red,2244,3248,2796
+2026-09-18,Maharashtra,Nashik,Lasalgaon,Onion,Red,2386,3441,2939
+2026-09-18,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1125,2019,1572
+2026-09-18,Maharashtra,Pune,Pune,Onion,Local,2070,3073,2622
+2026-09-18,Maharashtra,Pune,Pune,Tomato,Local,1197,2093,1645
+2026-09-18,Maharashtra,Pune,Pune,Potato,Jyoti,1461,2262,1861
+2026-09-18,Maharashtra,Pune,Pune,Wheat,Lokwan,2239,2940,2590
+2026-09-18,Maharashtra,Latur,Latur,Soybean,Yellow,4031,4829,4480
+2026-09-18,Maharashtra,Latur,Latur,Tur,White,9335,11637,10786
+2026-09-18,Maharashtra,Solapur,Solapur,Onion,Red,1967,2969,2518
+2026-09-18,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2197,3201,2749
+2026-09-18,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6664,7564,7164
+2026-09-18,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6893,7794,7394
+2026-09-18,Gujarat,Rajkot,Gondal,Onion,Pili,1938,2890,2439
+2026-09-18,Gujarat,Surat,Surat,Tomato,Deshi,1328,2325,1826
+2026-09-18,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4124,4922,4523
+2026-09-18,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2186,2837,2537
+2026-09-18,Madhya Pradesh,Indore,Indore,Potato,Chips,1314,2114,1714
+2026-09-18,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4055,4854,4455
+2026-09-18,Uttar Pradesh,Agra,Agra,Potato,Desi,1177,1926,1526
+2026-09-18,Uttar Pradesh,Agra,Agra,Wheat,Dara,2154,2804,2484
+2026-09-18,Uttar Pradesh,Agra,Agra,Mustard,Black,5169,5970,5570
+2026-09-18,Punjab,Ludhiana,Khanna,Wheat,Kanak,2244,2895,2595
+2026-09-19,Maharashtra,Nashik,Nashik,Onion,Red,2271,3277,2824
+2026-09-19,Maharashtra,Nashik,Lasalgaon,Onion,Red,2412,3469,2966
+2026-09-19,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1087,1979,1533
+2026-09-19,Maharashtra,Pune,Pune,Onion,Local,2079,3084,2632
+2026-09-19,Maharashtra,Pune,Pune,Tomato,Local,1187,2081,1634
+2026-09-19,Maharashtra,Pune,Pune,Potato,Jyoti,1479,2281,1880
+2026-09-19,Maharashtra,Pune,Pune,Wheat,Lokwan,2243,2944,2594
+2026-09-19,Maharashtra,Latur,Latur,Soybean,Yellow,4020,4817,4469
+2026-09-19,Maharashtra,Latur,Latur,Tur,White,9386,11690,10838
+2026-09-19,Maharashtra,Solapur,Solapur,Onion,Red,1972,2976,2524
+2026-09-19,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2174,3179,2727
+2026-09-19,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6642,7543,7143
+2026-09-19,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6845,7746,7346
+2026-09-19,Gujarat,Rajkot,Gondal,Onion,Pili,1927,2880,2429
+2026-09-19,Gujarat,Surat,Surat,Tomato,Deshi,1316,2312,1814
+2026-09-19,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4152,4950,4551
+2026-09-19,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2209,2860,2560
+2026-09-19,Madhya Pradesh,Indore,Indore,Potato,Chips,1298,2099,1699
+2026-09-19,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4057,4854,4456
+2026-09-19,Uttar Pradesh,Agra,Agra,Potato,Desi,1187,1936,1537
+2026-09-19,Uttar Pradesh,Agra,Agra,Wheat,Dara,2157,2808,2488
+2026-09-19,Uttar Pradesh,Agra,Agra,Mustard,Black,5185,5988,5587
+2026-09-19,Punjab,Ludhiana,Khanna,Wheat,Kanak,2266,2917,2617
+2026-09-20,Maharashtra,Nashik,Nashik,Onion,Red,2314,3322,2868
+2026-09-20,Maharashtra,Nashik,Lasalgaon,Onion,Red,2445,3504,3000
+2026-09-20,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1065,1954,1509
+2026-09-20,Maharashtra,Pune,Pune,Onion,Local,2052,3059,2606
+2026-09-20,Maharashtra,Pune,Pune,Tomato,Local,1207,2099,1653
+2026-09-20,Maharashtra,Pune,Pune,Potato,Jyoti,1444,2246,1845
+2026-09-20,Maharashtra,Pune,Pune,Wheat,Lokwan,2291,2992,2642
+2026-09-20,Maharashtra,Latur,Latur,Soybean,Yellow,4023,4819,4471
+2026-09-20,Maharashtra,Latur,Latur,Tur,White,9338,11643,10790
+2026-09-20,Maharashtra,Solapur,Solapur,Onion,Red,1947,2952,2499
+2026-09-20,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2219,3227,2773
+2026-09-20,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6669,7570,7170
+2026-09-20,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6863,7765,7364
+2026-09-20,Gujarat,Rajkot,Gondal,Onion,Pili,1969,2923,2471
+2026-09-20,Gujarat,Surat,Surat,Tomato,Deshi,1341,2335,1838
+2026-09-20,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4175,4972,4573
+2026-09-20,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2234,2886,2585
+2026-09-20,Madhya Pradesh,Indore,Indore,Potato,Chips,1278,2079,1679
+2026-09-20,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4094,4891,4493
+2026-09-20,Uttar Pradesh,Agra,Agra,Potato,Desi,1223,1971,1572
+2026-09-20,Uttar Pradesh,Agra,Agra,Wheat,Dara,2138,2789,2469
+2026-09-20,Uttar Pradesh,Agra,Agra,Mustard,Black,5156,5959,5558
+2026-09-20,Punjab,Ludhiana,Khanna,Wheat,Kanak,2222,2873,2573
+2026-09-21,Maharashtra,Nashik,Nashik,Onion,Red,2310,3320,2865
+2026-09-21,Maharashtra,Nashik,Lasalgaon,Onion,Red,2414,3476,2970
+2026-09-21,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1116,2002,1559
+2026-09-21,Maharashtra,Pune,Pune,Onion,Local,2114,3122,2668
+2026-09-21,Maharashtra,Pune,Pune,Tomato,Local,1190,2080,1635
+2026-09-21,Maharashtra,Pune,Pune,Potato,Jyoti,1471,2274,1872
+2026-09-21,Maharashtra,Pune,Pune,Wheat,Lokwan,2274,2976,2625
+2026-09-21,Maharashtra,Latur,Latur,Soybean,Yellow,3994,4788,4441
+2026-09-21,Maharashtra,Latur,Latur,Tur,White,9382,11688,10835
+2026-09-21,Maharashtra,Solapur,Solapur,Onion,Red,2019,3025,2572
+2026-09-21,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2192,3201,2746
+2026-09-21,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6631,7532,7131
+2026-09-21,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6860,7762,7361
+2026-09-21,Gujarat,Rajkot,Gondal,Onion,Pili,1998,2953,2500
+2026-09-21,Gujarat,Surat,Surat,Tomato,Deshi,1319,2312,1815
+2026-09-21,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4147,4943,4545
+2026-09-21,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2213,2865,2564
+2026-09-21,Madhya Pradesh,Indore,Indore,Potato,Chips,1317,2118,1717
+2026-09-21,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4079,4875,4477
+2026-09-21,Uttar Pradesh,Agra,Agra,Potato,Desi,1218,1965,1566
+2026-09-21,Uttar Pradesh,Agra,Agra,Wheat,Dara,2132,2783,2462
+2026-09-21,Uttar Pradesh,Agra,Agra,Mustard,Black,5152,5956,5554
+2026-09-21,Punjab,Ludhiana,Khanna,Wheat,Kanak,2272,2924,2623
+2026-09-22,Maharashtra,Nashik,Nashik,Onion,Red,2312,3324,2868
+2026-09-22,Maharashtra,Nashik,Lasalgaon,Onion,Red,2446,3511,3004
+2026-09-22,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1116,2000,1558
+2026-09-22,Maharashtra,Pune,Pune,Onion,Local,2125,3134,2680
+2026-09-22,Maharashtra,Pune,Pune,Tomato,Local,1194,2082,1638
+2026-09-22,Maharashtra,Pune,Pune,Potato,Jyoti,1479,2283,1881
+2026-09-22,Maharashtra,Pune,Pune,Wheat,Lokwan,2290,2993,2642
+2026-09-22,Maharashtra,Latur,Latur,Soybean,Yellow,3981,4774,4428
+2026-09-22,Maharashtra,Latur,Latur,Tur,White,9384,11692,10838
+2026-09-22,Maharashtra,Solapur,Solapur,Onion,Red,1982,2990,2536
+2026-09-22,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2186,3197,2742
+2026-09-22,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6672,7573,7173
+2026-09-22,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6898,7801,7400
+2026-09-22,Gujarat,Rajkot,Gondal,Onion,Pili,2015,2972,2519
+2026-09-22,Gujarat,Surat,Surat,Tomato,Deshi,1315,2307,1811
+2026-09-22,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4151,4947,4549
+2026-09-22,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2230,2883,2582
+2026-09-22,Madhya Pradesh,Indore,Indore,Potato,Chips,1323,2124,1724
+2026-09-22,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4065,4860,4463
+2026-09-22,Uttar Pradesh,Agra,Agra,Potato,Desi,1210,1957,1559
+2026-09-22,Uttar Pradesh,Agra,Agra,Wheat,Dara,2177,2828,2508
+2026-09-22,Uttar Pradesh,Agra,Agra,Mustard,Black,5152,5957,5555
+2026-09-22,Punjab,Ludhiana,Khanna,Wheat,Kanak,2230,2883,2582
+2026-09-23,Maharashtra,Nashik,Nashik,Onion,Red,2309,3323,2866
+2026-09-23,Maharashtra,Nashik,Lasalgaon,Onion,Red,2500,3567,3059
+2026-09-23,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1105,1986,1545
+2026-09-23,Maharashtra,Pune,Pune,Onion,Local,2102,3113,2658
+2026-09-23,Maharashtra,Pune,Pune,Tomato,Local,1158,2044,1601
+2026-09-23,Maharashtra,Pune,Pune,Potato,Jyoti,1461,2265,1863
+2026-09-23,Maharashtra,Pune,Pune,Wheat,Lokwan,2261,2964,2613
+2026-09-23,Maharashtra,Latur,Latur,Soybean,Yellow,4004,4796,4450
+2026-09-23,Maharashtra,Latur,Latur,Tur,White,9377,11686,10831
+2026-09-23,Maharashtra,Solapur,Solapur,Onion,Red,1970,2979,2524
+2026-09-23,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2171,3184,2728
+2026-09-23,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6623,7525,7124
+2026-09-23,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6857,7761,7359
+2026-09-23,Gujarat,Rajkot,Gondal,Onion,Pili,2003,2961,2507
+2026-09-23,Gujarat,Surat,Surat,Tomato,Deshi,1346,2336,1841
+2026-09-23,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4098,4893,4495
+2026-09-23,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2234,2888,2586
+2026-09-23,Madhya Pradesh,Indore,Indore,Potato,Chips,1321,2123,1722
+2026-09-23,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4114,4909,4512
+2026-09-23,Uttar Pradesh,Agra,Agra,Potato,Desi,1216,1962,1564
+2026-09-23,Uttar Pradesh,Agra,Agra,Wheat,Dara,2142,2794,2473
+2026-09-23,Uttar Pradesh,Agra,Agra,Mustard,Black,5184,5989,5587
+2026-09-23,Punjab,Ludhiana,Khanna,Wheat,Kanak,2285,2938,2637
+2026-09-24,Maharashtra,Nashik,Nashik,Onion,Red,2333,3349,2891
+2026-09-24,Maharashtra,Nashik,Lasalgaon,Onion,Red,2477,3546,3037
+2026-09-24,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1032,1910,1471
+2026-09-24,Maharashtra,Pune,Pune,Onion,Local,2067,3080,2624
+2026-09-24,Maharashtra,Pune,Pune,Tomato,Local,1151,2035,1593
+2026-09-24,Maharashtra,Pune,Pune,Potato,Jyoti,1488,2293,1890
+2026-09-24,Maharashtra,Pune,Pune,Wheat,Lokwan,2252,2955,2604
+2026-09-24,Maharashtra,Latur,Latur,Soybean,Yellow,3993,4785,4439
+2026-09-24,Maharashtra,Latur,Latur,Tur,White,9424,11734,10879
+2026-09-24,Maharashtra,Solapur,Solapur,Onion,Red,2017,3027,2572
+2026-09-24,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2183,3198,2740
+2026-09-24,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6690,7592,7191
+2026-09-24,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6860,7764,7362
+2026-09-24,Gujarat,Rajkot,Gondal,Onion,Pili,1963,2921,2467
+2026-09-24,Gujarat,Surat,Surat,Tomato,Deshi,1320,2309,1814
+2026-09-24,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4103,4897,4500
+2026-09-24,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2238,2892,2590
+2026-09-24,Madhya Pradesh,Indore,Indore,Potato,Chips,1336,2138,1737
+2026-09-24,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4102,4895,4499
+2026-09-24,Uttar Pradesh,Agra,Agra,Potato,Desi,1216,1962,1564
+2026-09-24,Uttar Pradesh,Agra,Agra,Wheat,Dara,2159,2811,2490
+2026-09-24,Uttar Pradesh,Agra,Agra,Mustard,Black,5194,6001,5598
+2026-09-24,Punjab,Ludhiana,Khanna,Wheat,Kanak,2302,2955,2654
+2026-09-25,Maharashtra,Nashik,Nashik,Onion,Red,2355,3373,2914
+2026-09-25,Maharashtra,Nashik,Lasalgaon,Onion,Red,2511,3582,3072
+2026-09-25,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1072,1948,1510
+2026-09-25,Maharashtra,Pune,Pune,Onion,Local,2131,3146,2689
+2026-09-25,Maharashtra,Pune,Pune,Tomato,Local,1149,2031,1590
+2026-09-25,Maharashtra,Pune,Pune,Potato,Jyoti,1497,2303,1900
+2026-09-25,Maharashtra,Pune,Pune,Wheat,Lokwan,2283,2986,2635
+2026-09-25,Maharashtra,Latur,Latur,Soybean,Yellow,3999,4790,4445
+2026-09-25,Maharashtra,Latur,Latur,Tur,White,9395,11707,10851
+2026-09-25,Maharashtra,Solapur,Solapur,Onion,Red,1999,3011,2555
+2026-09-25,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2251,3268,2810
+2026-09-25,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6682,7585,7184
+2026-09-25,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6911,7816,7414
+2026-09-25,Gujarat,Rajkot,Gondal,Onion,Pili,1983,2942,2488
+2026-09-25,Gujarat,Surat,Surat,Tomato,Deshi,1291,2279,1785
+2026-09-25,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4139,4933,4536
+2026-09-25,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2190,2845,2543
+2026-09-25,Madhya Pradesh,Indore,Indore,Potato,Chips,1306,2109,1708
+2026-09-25,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4057,4850,4454
+2026-09-25,Uttar Pradesh,Agra,Agra,Potato,Desi,1172,1917,1520
+2026-09-25,Uttar Pradesh,Agra,Agra,Wheat,Dara,2162,2815,2494
+2026-09-25,Uttar Pradesh,Agra,Agra,Mustard,Black,5182,5989,5586
+2026-09-25,Punjab,Ludhiana,Khanna,Wheat,Kanak,2295,2948,2647
+2026-09-26,Maharashtra,Nashik,Nashik,Onion,Red,2310,3330,2870
+2026-09-26,Maharashtra,Nashik,Lasalgaon,Onion,Red,2485,3559,3047
+2026-09-26,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1009,1882,1445
+2026-09-26,Maharashtra,Pune,Pune,Onion,Local,2111,3127,2669
+2026-09-26,Maharashtra,Pune,Pune,Tomato,Local,1169,2049,1609
+2026-09-26,Maharashtra,Pune,Pune,Potato,Jyoti,1459,2265,1862
+2026-09-26,Maharashtra,Pune,Pune,Wheat,Lokwan,2255,2959,2607
+2026-09-26,Maharashtra,Latur,Latur,Soybean,Yellow,3970,4759,4414
+2026-09-26,Maharashtra,Latur,Latur,Tur,White,9423,11736,10879
+2026-09-26,Maharashtra,Solapur,Solapur,Onion,Red,2022,3035,2578
+2026-09-26,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2236,3254,2795
+2026-09-26,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6691,7593,7192
+2026-09-26,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6893,7798,7395
+2026-09-26,Gujarat,Rajkot,Gondal,Onion,Pili,2011,2971,2516
+2026-09-26,Gujarat,Surat,Surat,Tomato,Deshi,1257,2243,1750
+2026-09-26,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4106,4899,4502
+2026-09-26,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2237,2892,2589
+2026-09-26,Madhya Pradesh,Indore,Indore,Potato,Chips,1321,2123,1722
+2026-09-26,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4098,4890,4494
+2026-09-26,Uttar Pradesh,Agra,Agra,Potato,Desi,1138,1882,1485
+2026-09-26,Uttar Pradesh,Agra,Agra,Wheat,Dara,2195,2847,2526
+2026-09-26,Uttar Pradesh,Agra,Agra,Mustard,Black,5194,6002,5598
+2026-09-26,Punjab,Ludhiana,Khanna,Wheat,Kanak,2289,2943,2641
+2026-09-27,Maharashtra,Nashik,Nashik,Onion,Red,2309,3331,2870
+2026-09-27,Maharashtra,Nashik,Lasalgaon,Onion,Red,2523,3600,3087
+2026-09-27,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1016,1886,1451
+2026-09-27,Maharashtra,Pune,Pune,Onion,Local,2138,3155,2697
+2026-09-27,Maharashtra,Pune,Pune,Tomato,Local,1164,2042,1603
+2026-09-27,Maharashtra,Pune,Pune,Potato,Jyoti,1511,2318,1914
+2026-09-27,Maharashtra,Pune,Pune,Wheat,Lokwan,2298,3003,2651
+2026-09-27,Maharashtra,Latur,Latur,Soybean,Yellow,4034,4822,4478
+2026-09-27,Maharashtra,Latur,Latur,Tur,White,9404,11718,10861
+2026-09-27,Maharashtra,Solapur,Solapur,Onion,Red,2038,3052,2595
+2026-09-27,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2230,3250,2790
+2026-09-27,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6657,7560,7158
+2026-09-27,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6891,7797,7394
+2026-09-27,Gujarat,Rajkot,Gondal,Onion,Pili,2024,2986,2530
+2026-09-27,Gujarat,Surat,Surat,Tomato,Deshi,1247,2232,1739
+2026-09-27,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4126,4918,4522
+2026-09-27,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2229,2885,2582
+2026-09-27,Madhya Pradesh,Indore,Indore,Potato,Chips,1324,2127,1725
+2026-09-27,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4041,4832,4437
+2026-09-27,Uttar Pradesh,Agra,Agra,Potato,Desi,1192,1936,1539
+2026-09-27,Uttar Pradesh,Agra,Agra,Wheat,Dara,2139,2792,2470
+2026-09-27,Uttar Pradesh,Agra,Agra,Mustard,Black,5228,6037,5633
+2026-09-27,Punjab,Ludhiana,Khanna,Wheat,Kanak,2297,2952,2650
+2026-09-28,Maharashtra,Nashik,Nashik,Onion,Red,2321,3345,2883
+2026-09-28,Maharashtra,Nashik,Lasalgaon,Onion,Red,2539,3618,3104
+2026-09-28,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1041,1909,1475
+2026-09-28,Maharashtra,Pune,Pune,Onion,Local,2168,3187,2728
+2026-09-28,Maharashtra,Pune,Pune,Tomato,Local,1105,1981,1543
+2026-09-28,Maharashtra,Pune,Pune,Potato,Jyoti,1456,2264,1860
+2026-09-28,Maharashtra,Pune,Pune,Wheat,Lokwan,2285,2990,2638
+2026-09-28,Maharashtra,Latur,Latur,Soybean,Yellow,3969,4756,4413
+2026-09-28,Maharashtra,Latur,Latur,Tur,White,9441,11757,10899
+2026-09-28,Maharashtra,Solapur,Solapur,Onion,Red,2005,3021,2563
+2026-09-28,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2216,3239,2778
+2026-09-28,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6657,7560,7159
+2026-09-28,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6886,7793,7390
+2026-09-28,Gujarat,Rajkot,Gondal,Onion,Pili,2008,2971,2515
+2026-09-28,Gujarat,Surat,Surat,Tomato,Deshi,1265,2249,1757
+2026-09-28,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4132,4924,4528
+2026-09-28,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2229,2886,2583
+2026-09-28,Madhya Pradesh,Indore,Indore,Potato,Chips,1317,2120,1719
+2026-09-28,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4064,4855,4460
+2026-09-28,Uttar Pradesh,Agra,Agra,Potato,Desi,1166,1909,1513
+2026-09-28,Uttar Pradesh,Agra,Agra,Wheat,Dara,2177,2830,2509
+2026-09-28,Uttar Pradesh,Agra,Agra,Mustard,Black,5185,5994,5590
+2026-09-28,Punjab,Ludhiana,Khanna,Wheat,Kanak,2241,2896,2594
+2026-09-29,Maharashtra,Nashik,Nashik,Onion,Red,2387,3413,2950
+2026-09-29,Maharashtra,Nashik,Lasalgaon,Onion,Red,2502,3583,3068
+2026-09-29,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1023,1888,1455
+2026-09-29,Maharashtra,Pune,Pune,Onion,Local,2109,3130,2670
+2026-09-29,Maharashtra,Pune,Pune,Tomato,Local,1137,2011,1574
+2026-09-29,Maharashtra,Pune,Pune,Potato,Jyoti,1477,2285,1881
+2026-09-29,Maharashtra,Pune,Pune,Wheat,Lokwan,2241,2946,2594
+2026-09-29,Maharashtra,Latur,Latur,Soybean,Yellow,3952,4738,4395
+2026-09-29,Maharashtra,Latur,Latur,Tur,White,9391,11708,10849
+2026-09-29,Maharashtra,Solapur,Solapur,Onion,Red,2019,3036,2577
+2026-09-29,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2244,3268,2806
+2026-09-29,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6627,7531,7129
+2026-09-29,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6920,7827,7423
+2026-09-29,Gujarat,Rajkot,Gondal,Onion,Pili,1991,2955,2498
+2026-09-29,Gujarat,Surat,Surat,Tomato,Deshi,1262,2244,1753
+2026-09-29,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4087,4878,4482
+2026-09-29,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2251,2908,2604
+2026-09-29,Madhya Pradesh,Indore,Indore,Potato,Chips,1289,2093,1691
+2026-09-29,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4085,4874,4480
+2026-09-29,Uttar Pradesh,Agra,Agra,Potato,Desi,1155,1898,1502
+2026-09-29,Uttar Pradesh,Agra,Agra,Wheat,Dara,2184,2838,2516
+2026-09-29,Uttar Pradesh,Agra,Agra,Mustard,Black,5188,5999,5594
+2026-09-29,Punjab,Ludhiana,Khanna,Wheat,Kanak,2280,2935,2633
+2026-09-30,Maharashtra,Nashik,Nashik,Onion,Red,2357,3385,2921
+2026-09-30,Maharashtra,Nashik,Lasalgaon,Onion,Red,2588,3671,3155
+2026-09-30,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,1019,1881,1450
+2026-09-30,Maharashtra,Pune,Pune,Onion,Local,2124,3147,2686
+2026-09-30,Maharashtra,Pune,Pune,Tomato,Local,1104,1976,1540
+2026-09-30,Maharashtra,Pune,Pune,Potato,Jyoti,1491,2300,1895
+2026-09-30,Maharashtra,Pune,Pune,Wheat,Lokwan,2248,2953,2601
+2026-09-30,Maharashtra,Latur,Latur,Soybean,Yellow,4016,4801,4459
+2026-09-30,Maharashtra,Latur,Latur,Tur,White,9397,11715,10856
+2026-09-30,Maharashtra,Solapur,Solapur,Onion,Red,2033,3051,2592
+2026-09-30,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2300,3326,2863
+2026-09-30,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6674,7578,7176
+2026-09-30,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6893,7801,7397
+2026-09-30,Gujarat,Rajkot,Gondal,Onion,Pili,2002,2967,2509
+2026-09-30,Gujarat,Surat,Surat,Tomato,Deshi,1235,2216,1725
+2026-09-30,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4143,4933,4538
+2026-09-30,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2273,2931,2627
+2026-09-30,Madhya Pradesh,Indore,Indore,Potato,Chips,1307,2111,1709
+2026-09-30,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4022,4811,4417
+2026-09-30,Uttar Pradesh,Agra,Agra,Potato,Desi,1164,1906,1510
+2026-09-30,Uttar Pradesh,Agra,Agra,Wheat,Dara,2202,2856,2534
+2026-09-30,Uttar Pradesh,Agra,Agra,Mustard,Black,5175,5986,5581
+2026-09-30,Punjab,Ludhiana,Khanna,Wheat,Kanak,2307,2962,2660
+2026-10-01,Maharashtra,Nashik,Nashik,Onion,Red,2350,3380,2915
+2026-10-01,Maharashtra,Nashik,Lasalgaon,Onion,Red,2566,3652,3134
+2026-10-01,Maharashtra,Nashik,Pimpalgaon,Tomato,Hybrid,998,1858,1428
+2026-10-01,Maharashtra,Pune,Pune,Onion,Local,2172,3196,2734
+2026-10-01,Maharashtra,Pune,Pune,Tomato,Local,1122,1992,1557
+2026-10-01,Maharashtra,Pune,Pune,Potato,Jyoti,1463,2273,1868
+2026-10-01,Maharashtra,Pune,Pune,Wheat,Lokwan,2301,3007,2654
+2026-10-01,Maharashtra,Latur,Latur,Soybean,Yellow,3981,4765,4423
+2026-10-01,Maharashtra,Latur,Latur,Tur,White,9401,11721,10861
+2026-10-01,Maharashtra,Solapur,Solapur,Onion,Red,2053,3073,2613
+2026-10-01,Maharashtra,Ahmednagar,Ahmednagar,Onion,Garwa,2298,3326,2862
+2026-10-01,Maharashtra,Nagpur,Nagpur,Cotton,Medium Staple,6641,7545,7143
+2026-10-01,Gujarat,Rajkot,Rajkot,Cotton,Shankar-6,6901,7809,7405
+2026-10-01,Gujarat,Rajkot,Gondal,Onion,Pili,2028,2994,2536
+2026-10-01,Gujarat,Surat,Surat,Tomato,Deshi,1278,2258,1768
+2026-10-01,Madhya Pradesh,Indore,Indore,Soybean,Yellow,4084,4874,4479
+2026-10-01,Madhya Pradesh,Indore,Indore,Wheat,Mill Quality,2251,2909,2605
+2026-10-01,Madhya Pradesh,Indore,Indore,Potato,Chips,1300,2104,1702
+2026-10-01,Madhya Pradesh,Ujjain,Ujjain,Soybean,Yellow,4072,4860,4466
+2026-10-01,Uttar Pradesh,Agra,Agra,Potato,Desi,1158,1900,1504
+2026-10-01,Uttar Pradesh,Agra,Agra,Wheat,Dara,2206,2860,2538
+2026-10-01,Uttar Pradesh,Agra,Agra,Mustard,Black,5232,6044,5638
+2026-10-01,Punjab,Ludhiana,Khanna,Wheat,Kanak,2298,2954,2651
